@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <%= htmlWebpackPlugin.options.head %>
+  <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body class="body">
+<%= htmlWebpackPlugin.options.sectionHeader %>
+<main class="main main--has-intro">
+  <section class="section page-intro mb-80">
+    <div class="container">
+      <div class="columns">
+        <div class="columns__col--7">
+          <div class="page-intro__content mb-20">
+            <section class="section mb-40">
+              <div class="breadcrumbs">
+                <a class="breadcrumbs__link" href="./">Главная</a>
+                <a class="breadcrumbs__link" href="./">Пациентам</a>
+                <span class="breadcrumbs__curr-page">Правила посещения клиники</span>
+              </div>
+            </section>
+            <div class="page-intro__top">
+              <h1 class="title title--page mb-15">Правила посещения клиники</h1>
+            </div>
+          </div>
+        </div>
+        <div class="columns__col--5">
+          <picture class="page-intro__picture page-intro__picture--about">
+            <img src="./assets/images/about-pic.svg" alt="">
+          </picture>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="section mb-110">
+    <div class="container">
+      <h2 class="title title--page">Нормативно-правовые документы</h2>
+      <div class="columns">
+        <div class="columns__col--4 columns__col-tab--6 columns__col-mob--12">
+          <a class="card card--gray card--150" href="#">
+            <svg class="card--gray__icon">
+              <use xlink:href="assets/sprite/sprite.svg#icon-file"></use>
+            </svg>
+            <p class="card--gray__text">Лицензия № 41</p>
+          </a>
+        </div>
+        <div class="columns__col--4 columns__col-tab--6 columns__col-mob--12">
+          <a class="card card--gray card--150" href="#">
+            <svg class="card--gray__icon">
+              <use xlink:href="assets/sprite/sprite.svg#icon-file"></use>
+            </svg>
+            <p class="card--gray__text">Выписка из реестра лицензий</p>
+          </a>
+        </div>
+        <div class="columns__col--4 columns__col-tab--6 columns__col-mob--12">
+          <a class="card card--gray card--150" href="#">
+            <svg class="card--gray__icon">
+              <use xlink:href="assets/sprite/sprite.svg#icon-file"></use>
+            </svg>
+            <p class="card--gray__text">Правила и обязанности граждан в сфере охраны труда</p>
+          </a>
+        </div>
+        <div class="columns__col--4 columns__col-tab--6 columns__col-mob--12">
+          <a class="card card--gray card--150" href="#">
+            <svg class="card--gray__icon">
+              <use xlink:href="assets/sprite/sprite.svg#icon-file"></use>
+            </svg>
+            <p class="card--gray__text">О Территориальной программе государственных гарантий бесплатного оказания гражданам медицинской помощи</p>
+          </a>
+        </div>
+        <div class="columns__col--4 columns__col-tab--6 columns__col-mob--12">
+          <a class="card card--gray card--150" href="#">
+            <svg class="card--gray__icon">
+              <use xlink:href="assets/sprite/sprite.svg#icon-file"></use>
+            </svg>
+            <p class="card--gray__text">Доступность и качество медицинской помощи</p>
+          </a>
+        </div>
+        <div class="columns__col--4 columns__col-tab--6 columns__col-mob--12">
+          <a class="card card--gray card--150" href="#">
+            <svg class="card--gray__icon">
+              <use xlink:href="assets/sprite/sprite.svg#icon-file"></use>
+            </svg>
+            <p class="card--gray__text">Права и обязанности граждан в сфере охраны труда</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<%= htmlWebpackPlugin.options.sectionFooter %>
+<%= htmlWebpackPlugin.options.temp %>
+</body>
+</html>

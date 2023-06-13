@@ -1,0 +1,20 @@
+.accent-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: rem(42);
+  background-color: #F2F4F6;
+  border-radius: 10px;
+  gap: rem(115);
+  margin: rem(40) 0;
+  & > p:first-child {
+    width: 20%;
+  }
+  & > p:last-child {
+    width: 70%;
+  }
+  &--short {
+    height: rem(240);
+    padding: 0 rem(40);
+  }
+}

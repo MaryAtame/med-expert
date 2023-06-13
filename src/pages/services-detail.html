@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <%= htmlWebpackPlugin.options.head %>
+  <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body class="body">
+<%= htmlWebpackPlugin.options.sectionHeader %>
+<main class="main main--has-intro">
+  <section class="section page-intro mb-40 mbm-90">
+    <div class="container">
+      <div class="columns">
+        <div class="columns__col--6 columns__col-mob--12">
+          <div class="page-intro__content page-intro__content--simple">
+            <section class="section mb-45 mbm-35">
+              <div class="breadcrumbs">
+                <a class="breadcrumbs__link" href="./">Главная</a>
+                <a class="breadcrumbs__link" href="./">Услуги</a>
+                <span class="breadcrumbs__curr-page">Нефрология</span>
+              </div>
+            </section>
+            <h1 class="title title--page mb-15">Нефрология</h1>
+            <div class="page-intro__text">
+              <p>Консультация врача-нефролога в нашем медицинском центре - это первый шаг к избавлению от проблем
+                связанных с болезнями почек. Наши врачи осуществляют ведение пациентов на всех стадиях ХБП, определяют
+                показания к диагностической нефробиопсии и успешно лечат патологические состояния взрослых больных.</p>
+            </div>
+            <button class="button button--h60">Записаться на прием к врачу</button>
+          </div>
+        </div>
+        <div class="columns__col--6 columns__col-mob--12">
+          <picture class="page-intro__picture page-intro__picture--bottom">
+            <img src="./assets/images/detail-page-img.png" alt="">
+          </picture>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <nav class="nav mb-50 mbm-35">
+        <a class="nav__link" href="#about">Об услуге</a>
+        <a class="nav__link" href="#doctors">Врачи</a>
+        <a class="nav__link" href="#price">Цены</a>
+        <a class="nav__link" href="#review">Отзывы</a>
+        <a class="nav__link" href="#clinics">Клиники</a>
+      </nav>
+      <div class="service-block mb-50 mbm-35" id="about">
+        <div class="service-block__part">
+          <h2 class="title mb-35">Нефрология: эффективное лечение почек</h2>
+          <div class="editor editor--16">
+            <p>Боли в области поясницы, трудности с мочеиспусканием, дискомфорт и повышение температуры могут
+              свидетельствовать о развитии серьезного воспалительного процесса в почках. Затягивать с визитом к врачу в
+              этом случае не стоит. Так как в нашем организме все взаимосвязано, о проблемах с почками могут
+              свидетельствовать не только явные признаки болезни, но и косвенные симптомы. Так, консультация нефролога
+              требуется людям, страдающим:</p>
+          </div>
+          <ul class="service-block__list">
+            <li class="service-block__list-item">гипертензией</li>
+            <li class="service-block__list-item">ярко выраженной отечностью</li>
+            <li class="service-block__list-item">последствиями ранее перенесенных тяжелых бактериальных инфекций</li>
+            <li class="service-block__list-item">хроническим тонзиллитом</li>
+          </ul>
+        </div>
+        <div class="service-block__part">
+          <h2 class="title mb-35">Что такое пиелонефрит и как его лечить?</h2>
+          <div class="editor editor--16">
+            <p>Основные симптомы болезни почек - пиелонефрита, с которыми вы можете обратиться к нашим нефрологам,
+              довольно очевидны:</p>
+          </div>
+          <ul class="service-block__list">
+            <li class="service-block__list-item">боли в области поясницы</li>
+            <li class="service-block__list-item">нарушение мочеиспускания и нормального ритма опорожнения мочевого
+              пузыря
+            </li>
+            <li class="service-block__list-item">отечность мягких тканей</li>
+            <li class="service-block__list-item">визуальные изменения цвета мочи, запаха, прозрачности</li>
+            <li class="service-block__list-item">повышение температуры тела</li>
+            <li class="service-block__list-item">болезненность при опорожнении мочевого пузыря</li>
+            <li class="service-block__list-item">недержание в дневное или ночное время</li>
+          </ul>
+          <div class="service-block__text">
+            <p>Однако эти же признаки заболевания почек могут свидетельствовать и о других болезнях мочеполовой системы,
+              поэтому очень важно своевременно обратиться к врачу, чтобы максимально быстро поставить точный диагноз и
+              начать эффективное лечение.</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="service-block mb-85 mbm-70" id="doctors">
+        <h2 class="title mb-35">Врачи-нефрологи</h2>
+        <div class="slider slider--about" data-slider data-slider-slides="4">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a class="card card--md" href="#">
+                  <picture class="card__picture card--md__picture">
+                    <img src="assets/images/doc.jpg" alt="">
+                  </picture>
+                  <div class="card__content">
+                    <div class="card__title">
+                      <p>Львович</p>
+                      <p>Инна Александровна</p>
+                    </div>
+                    <div class="card__text card__text--14">
+                      <p>Нефролог</p>
+                    </div>
+                    <div class="card__content-bottom">
+                      <div class="card__text card__text--14 card__text-accent">
+                        <p>Стаж 15 лет</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a class="card card--md" href="#">
+                  <picture class="card__picture card--md__picture">
+                    <img src="assets/images/doc-2.jpg" alt="">
+                  </picture>
+                  <div class="card__content">
+                    <div class="card__title">
+                      <p>Львович</p>
+                      <p>Инна Александровна</p>
+                    </div>
+                    <div class="card__text card__text--14">
+                      <p>Нефролог</p>
+                    </div>
+                    <div class="card__content-bottom">
+                      <div class="card__text card__text--14 card__text-accent">
+                        <p>Стаж 15 лет</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a class="card card--md" href="#">
+                  <picture class="card__picture card--md__picture">
+                    <img src="assets/images/doc.jpg" alt="">
+                  </picture>
+                  <div class="card__content">
+                    <div class="card__title">
+                      <p>Львович</p>
+                      <p>Инна Александровна</p>
+                    </div>
+                    <div class="card__text card__text--14">
+                      <p>Нефролог</p>
+                    </div>
+                    <div class="card__content-bottom">
+                      <div class="card__text card__text--14 card__text-accent">
+                        <p>Стаж 15 лет</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a class="card card--md" href="#">
+                  <picture class="card__picture card--md__picture">
+                    <img src="assets/images/doc.jpg" alt="">
+                  </picture>
+                  <div class="card__content">
+                    <div class="card__title">
+                      <p>Львович</p>
+                      <p>Инна Александровна</p>
+                    </div>
+                    <div class="card__text card__text--14">
+                      <p>Нефролог</p>
+                    </div>
+                    <div class="card__content-bottom">
+                      <div class="card__text card__text--14 card__text-accent">
+                        <p>Стаж 15 лет</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="slider__controls">
+            <button class="slider__button slider__button--gray slider__button--prev" type="button" data-slider-prev>
+              <svg>
+                <use xlink:href="assets/sprite/sprite.svg#icon-arrow"></use>
+              </svg>
+            </button>
+            <button class="slider__button slider__button--gray slider__button--next" type="button" data-slider-next>
+              <svg>
+                <use xlink:href="assets/sprite/sprite.svg#icon-arrow"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="service-block mb-90" id="price">
+        <h2 class="title mb-40 mbm-30">Цены</h2>
+        <div class="price-block">
+          <div class="columns">
+            <div class="columns__col--12 columns__col-tab--6 columns__col-mob--12">
+              <article class="link-row link-row--grey">
+                <div class="price-block__content price-block__content--left">
+                  <p class="price-block__title">Консультация нефролога</p>
+                  <p class="fw--300 fz--16">возможна онлайн-консультация и вызов на дом</p>
+                </div>
+                <div class="price-block__content price-block__content--right">
+                  <div class="fw--600 fz--24">
+                    <span>3 800</span> ₽
+                  </div>
+                  <button class="button">Записаться</button>
+                </div>
+              </article>
+            </div>
+            <div class="columns__col--12 columns__col-tab--6 columns__col-mob--12">
+              <article class="link-row link-row--grey">
+                <div class="price-block__content price-block__content--left">
+                  <p class="price-block__title">Консультация нефролога</p>
+                  <p class="fw--300 fz--16">возможна онлайн-консультация и вызов на дом</p>
+                </div>
+                <div class="price-block__content price-block__content--right">
+                  <div class="fw--600 fz--24">
+                    <span>3 800</span> ₽
+                  </div>
+                  <button class="button">Записаться</button>
+                </div>
+              </article>
+            </div>
+            <div class="columns__col--12 columns__col-tab--6 columns__col-mob--12">
+              <article class="link-row link-row--grey">
+                <div class="price-block__content price-block__content--left">
+                  <p class="price-block__title">Консультация нефролога</p>
+                  <p class="fw--300 fz--16">возможна онлайн-консультация и вызов на дом</p>
+                </div>
+                <div class="price-block__content price-block__content--right">
+                  <div class="fw--600 fz--24">
+                    <span>3 800</span> ₽
+                  </div>
+                  <button class="button">Записаться</button>
+                </div>
+              </article>
+            </div>
+            <div class="columns__col--12 columns__col-tab--6 columns__col-mob--12">
+              <article class="link-row link-row--grey">
+                <div class="price-block__content price-block__content--left">
+                  <p class="price-block__title">Консультация нефролога</p>
+                  <p class="fw--300 fz--16">возможна онлайн-консультация и вызов на дом</p>
+                </div>
+                <div class="price-block__content price-block__content--right">
+                  <div class="fw--600 fz--24">
+                    <span>3 800</span> ₽
+                  </div>
+                  <button class="button">Записаться</button>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+        <button class="show-more show-more--dashed fz--20" type="button">Показать все</button>
+      </div>
+      <div class="service-block mb-90" id="review">
+        <div class="service-block__header mb-40 mbm-0">
+          <h2 class="title">Отзывы</h2>
+          <a class="show-more show-more--link mob-hidden" href="#">
+            <span>Читать все отзывы</span>
+            <svg>
+              <use xlink:href="assets/sprite/sprite.svg#icon-arrow-min"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="slider slider--review mb-50" data-slider data-slider-slides="3" data-slider-desktop>
+          <div class="swiper">
+            <div class="swiper-wrapper review__mob-greed">
+              <div class="swiper-slide">
+                <article class="card card--review">
+                  <div class="card__content card--no-padding">
+                    <div class="card__title card--review__title">Евгения</div>
+                    <div class="card__text card__text--14 card__text-lc card__text-lc--11">
+                      <p>Хочу выразить благодарность замечательному неврологу, профессионалу своего дела. Меня давно
+                        мучили головные боли, я не спала нормально. Обратилась к Туяне Батуевне. Она назначила
+                        мучили головные боли, я не спала нормально. Обратилась к Туяне Батуевне. Она назначила
+                        анализы, подобрала лечение. переживала за меня, беспокоилась. Все помогло и быстро! Очень
+                        внимательный доктор с широким кругозором знаний. Туяна Батуевна, спасибо Вам огромное за
+                        внимательный доктор с широким кругозором знаний. Туяна Батуевна, спасибо Вам огромное за
+                        помощь, за поддержку, за образец высокого звания Врач. С глубоким уважением, Евгения.</p>
+                    </div>
+
+                    <div class="card__bottom card__bottom--line">
+                      <address class="review-card__address">
+                        <a target="_blank" href="https://yandex.ru/maps/-/CCUgb2hVCA">Медэксперт на Иванникова</a>
+                      </address>
+                      <p class="card__bottom-text--accent">Иваненко Людмила Борисовна</p>
+                      <p class="card__bottom-text">Нефролог</p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="card card--review">
+                  <div class="card__content card--no-padding">
+                    <div class="card__title card--review__title">Евгения</div>
+                    <div class="card__text card__text--14 card__text-lc card__text-lc--11">
+                      <p>Хочу выразить благодарность замечательному неврологу, профессионалу своего дела. Меня давно
+                        Хочу выразить благодарность замечательному неврологу, профессионалу своего дела. Меня давно
+                        мучили головные боли, я не спала нормально. Обратилась к Туяне Батуевне. Она назначила
+                        анализы, подобрала лечение. переживала за меня, беспокоилась. Все помогло и быстро! Очень
+                        анализы, подобрала лечение. переживала за меня, беспокоилась. Все помогло и быстро! Очень
+                        внимательный доктор с широким кругозором знаний. Туяна Батуевна, спасибо Вам огромное за
+                        помощь, за поддержку, за образец высокого звания Врач. С глубоким уважением, Евгения.</p>
+                    </div>
+                    <div class="card__bottom card__bottom--line">
+                      <address class="review-card__address">
+                        <a target="_blank" href="https://yandex.ru/maps/-/CCUgb2hVCA">Медэксперт на Иванникова</a>
+                      </address>
+                      <p class="card__bottom-text--accent">Иваненко Людмила Борисовна</p>
+                      <p class="card__bottom-text">Нефролог</p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div class="slider__controls">
+            <button class="slider__button slider__button--prev" type="button" data-slider-prev>
+              <svg>
+                <use xlink:href="assets/sprite/sprite.svg#icon-arrow"></use>
+              </svg>
+            </button>
+            <button class="slider__button slider__button--next" type="button" data-slider-next>
+              <svg>
+                <use xlink:href="assets/sprite/sprite.svg#icon-arrow"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <a class="button centered mbm-25" href="#">Оставить отзыв</a>
+        <a class="show-more show-more--dashed flex justify-content-center only-mobile" href="#">Показать еще</a>
+      </div>
+      <div class="service-block mb-80" id="clinics">
+        <h2 class="title mb-40">Данная услуга доступна в центрах:</h2>
+        <div class="columns">
+          <div class="columns__col--3 columns__col-tab--6 columns__col-mob--12">
+            <article class="card card--380">
+              <picture class="card__picture card--md__picture">
+                <img src="assets/images/addr-1.jpg" alt="">
+              </picture>
+              <div class="card__content">
+                <div class="card__title">Диагностическая лаборатория</div>
+                <div class="card__content-bottom">
+                  <address class="card__address">
+                    <a href="https://yandex.ru/maps/-/CCUgb2hVCA">Калининград, ул. Космическая, 29</a>
+                  </address>
+                  <a class="card__text-accent" href="tel:+74012519000">+7 (4012) 51-90-00</a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="columns__col--3 columns__col-tab--6 columns__col-mob--12">
+            <article class="card card--380">
+              <picture class="card__picture card--md__picture">
+                <img src="assets/images/addr.jpg" alt="">
+              </picture>
+              <div class="card__content">
+                <div class="card__title">Диагностическая лаборатория</div>
+                <div class="card__content-bottom">
+                  <address class="card__address">
+                    <a href="https://yandex.ru/maps/-/CCUgb2hVCA">Калининград, ул. Космическая, 29</a>
+                  </address>
+                  <a class="card__text-accent" href="tel:+74012519000">+7 (4012) 51-90-00</a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="columns__col--3 columns__col-tab--6 columns__col-mob--12">
+            <article class="card card--380">
+              <picture class="card__picture card--md__picture">
+                <img src="assets/images/addr.jpg" alt="">
+              </picture>
+              <div class="card__content">
+                <div class="card__title">Диагностическая лаборатория</div>
+                <div class="card__content-bottom">
+                  <address class="card__address">
+                    <a href="https://yandex.ru/maps/-/CCUgb2hVCA">Калининград, ул. Космическая, 29</a>
+                  </address>
+                  <a class="card__text-accent" href="tel:+74012519000">+7 (4012) 51-90-00</a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="columns__col--3 columns__col-tab--6 columns__col-mob--12">
+            <article class="card card--380">
+              <picture class="card__picture card--md__picture">
+                <img src="assets/images/addr-1.jpg" alt="">
+              </picture>
+              <div class="card__content">
+                <div class="card__title">Диагностическая лаборатория</div>
+                <div class="card__content-bottom">
+                  <address class="card__address">
+                    <a href="https://yandex.ru/maps/-/CCUgb2hVCA">Калининград, ул. Космическая, 29</a>
+                  </address>
+                  <a class="card__text-accent" href="tel:+74012519000">+7 (4012) 51-90-00</a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="columns__col--3 columns__col-tab--6 columns__col-mob--12">
+            <article class="card card--380">
+              <picture class="card__picture card--md__picture">
+                <img src="assets/images/addr.jpg" alt="">
+              </picture>
+              <div class="card__content">
+                <div class="card__title">Диагностическая лаборатория</div>
+                <div class="card__content-bottom">
+                  <address class="card__address">
+                    <a href="https://yandex.ru/maps/-/CCUgb2hVCA">Калининград, ул. Космическая, 29</a>
+                  </address>
+                  <a class="card__text-accent" href="tel:+74012519000">+7 (4012) 51-90-00</a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="columns__col--3 columns__col-tab--6 columns__col-mob--12">
+            <article class="card card--380">
+              <picture class="card__picture card--md__picture">
+                <img src="assets/images/addr-1.jpg" alt="">
+              </picture>
+              <div class="card__content">
+                <div class="card__title">Диагностическая лаборатория</div>
+                <div class="card__content-bottom">
+                  <address class="card__address">
+                    <a href="https://yandex.ru/maps/-/CCUgb2hVCA">Калининград, ул. Космическая, 29</a>
+                  </address>
+                  <a class="card__text-accent" href="tel:+74012519000">+7 (4012) 51-90-00</a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="columns__col--3 columns__col-tab--6 columns__col-mob--12">
+            <article class="card card--380">
+              <picture class="card__picture card--md__picture">
+                <img src="assets/images/addr.jpg" alt="">
+              </picture>
+              <div class="card__content">
+                <div class="card__title">Диагностическая лаборатория</div>
+                <div class="card__content-bottom">
+                  <address class="card__address">
+                    <a href="https://yandex.ru/maps/-/CCUgb2hVCA">Калининград, ул. Космическая, 29</a>
+                  </address>
+                  <a class="card__text-accent" href="tel:+74012519000">+7 (4012) 51-90-00</a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="columns__col--3 columns__col-tab--6 columns__col-mob--12">
+            <article class="card card--380">
+              <picture class="card__picture card--md__picture">
+                <img src="assets/images/addr.jpg" alt="">
+              </picture>
+              <div class="card__content">
+                <div class="card__title">Диагностическая лаборатория</div>
+                <div class="card__content-bottom">
+                  <address class="card__address">
+                    <a href="https://yandex.ru/maps/-/CCUgb2hVCA">Калининград, ул. Космическая, 29</a>
+                  </address>
+                  <a class="card__text-accent" href="tel:+74012519000">+7 (4012) 51-90-00</a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="columns__col--12 mt-15">
+            <button class="show-more show-more--btn centered">Показать все</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<%= htmlWebpackPlugin.options.sectionFooter %>
+<%= htmlWebpackPlugin.options.temp %>
+</body>
+</html>

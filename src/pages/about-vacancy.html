@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <%= htmlWebpackPlugin.options.head %>
+  <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body class="body">
+<%= htmlWebpackPlugin.options.sectionHeader %>
+<main class="main main--has-intro">
+  <section class="section page-intro mb-80">
+    <div class="container">
+      <div class="columns">
+        <div class="columns__col--6 columns__col-mob--12">
+          <div class="page-intro__content mb-20">
+            <section class="section mb-20">
+              <div class="breadcrumbs">
+                <a class="breadcrumbs__link" href="./">Главная</a>
+                <a class="breadcrumbs__link" href="./">О компании</a>
+                <span class="breadcrumbs__curr-page">Вакансии</span>
+              </div>
+            </section>
+            <h1 class="title title--page mb-15">Присоединяйтесь <br>
+              к нашей команде!</h1>
+            <div class="page-intro__text mb-30">
+              <p>Идейные соображения высшего порядка, а также постоянное информационно-пропагандистское обеспечение
+                нашей деятельности позволяет выполнять важные задания по разработке дальнейших направлений развития.
+                Идейные соображения высшего порядка,</p>
+            </div>
+            <button class="button" type="button">Откликнуться</button>
+          </div>
+        </div>
+        <div class="columns__col--6 columns__col-mob--12">
+          <picture class="page-intro__picture page-intro__picture--about">
+            <img src="./assets/images/about-pic.svg" alt="">
+          </picture>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="section mb-80">
+    <div class="container">
+      <h2 class="title mb-65">Мы внимательны к тому, что важно, и предлагаем:</h2>
+      <div class="columns">
+        <div class="columns__col--4 columns__col-tab--4 columns__col-mob--12">
+          <article class="article article--big">
+            <div class="article__header--pic">
+              <div class="article__icon">
+                <svg class="">
+                  <use xlink:href="assets/sprite/sprite.svg#icon-med-4"></use>
+                </svg>
+              </div>
+              <div class="article__title">Удобство взаимодействия
+                с пациентами
+              </div>
+            </div>
+            <div class="article__content">
+              <div class="article__text">Используем современные цифровые решения для комфортной работы
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="columns__col--4 columns__col-tab--4 columns__col-mob--12">
+          <article class="article article--big">
+            <div class="article__header--pic">
+              <div class="article__icon">
+                <svg class="">
+                  <use xlink:href="assets/sprite/sprite.svg#icon-med-4"></use>
+                </svg>
+              </div>
+              <div class="article__title">Официальное
+                оформление</div>
+            </div>
+            <div class="article__content">
+              <div class="article__text">Трудоустройство по ТК РФ с соблюдением всех социальных гарантий и требований по охране труда.</div>
+            </div>
+          </article>
+        </div>
+        <div class="columns__col--4 columns__col-tab--4 columns__col-mob--12">
+          <article class="article article--big">
+            <div class="article__header--pic">
+              <div class="article__icon">
+                <svg class="">
+                  <use xlink:href="assets/sprite/sprite.svg#icon-med-4"></use>
+                </svg>
+              </div>
+              <div class="article__title">Современное оснащение клиник</div>
+            </div>
+            <div class="article__content">
+              <div class="article__text">От комфортного рабочего места до сложного экспертного медицинского оборудования.</div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="section mb-80">
+    <div class="container">
+      <h2 class="title mb-50">Врачи</h2>
+      <div class="collapse collapse--shadow" data-collapse data-duration="700">
+        <div class="collapse__wrapper">
+          <div class="collapse__item " data-collapse-item>
+            <div class="collapse__trigger collapse--shadow__trigger" data-collapse-trigger>
+              <p>Врач ультразвуковой диагностики</p>
+              <svg class="collapse__icon collapse__icon--arrow" data-collapse-icon>
+                <use xlink:href="assets/sprite/sprite.svg#icon-arrow-min"></use>
+              </svg>
+            </div>
+            <div class="collapse__content vacancy__collapse-content" data-collapse-content>
+              <div class="collapse--shadow__inner">
+                <p>Локация:</p>
+                <p>открыты вакансии в нескольких районах города Санкт-Петербург</p>
+                <ul class="vacancy__list">
+                  <p>Обязанности:</p>
+                  <li class="vacancy__list-item">Оказывать квалифицированную помощь пациентам гинекологического
+                    профиля;
+                  </li>
+                  <li class="vacancy__list-item">Определять необходимость в дополнительных методах исследований;</li>
+                  <li class="vacancy__list-item">Определять тактики ведения больного в соответствии с установленными
+                    правилами и стандартами;
+                  </li>
+                  <li class="vacancy__list-item">Ведение беременности.</li>
+                </ul>
+                <ul class="vacancy__list">
+                  <p>Требования:</p>
+                  <li class="vacancy__list-item">Мы ищем грамотного специалиста с аналогичным опытом работы от 3-х лет;
+                  </li>
+                  <li class="vacancy__list-item">Обязательно наличие всех документов для осуществления медицинской
+                    деятельности согласно действующего законодательства (Акушерство-гинекология и УЗИ).
+                  </li>
+                </ul>
+                <ul class="vacancy__list">
+                  <p>Основные условия:</p>
+                  <li class="vacancy__list-item">Стабильная заработная плата (оклад + процент от приема);
+                  </li>
+                  <li class="vacancy__list-item">График работы: сменный (обсуждается с каждым специалистом
+                    индивидуально);
+                  </li>
+                  <li class="vacancy__list-item">Мы заботимся о вашем медицинском стаже</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="collapse__wrapper">
+          <div class="collapse__item " data-collapse-item>
+            <div class="collapse__trigger collapse--shadow__trigger" data-collapse-trigger>
+              <p>Врач акушер-гинеколог</p>
+              <svg class="collapse__icon collapse__icon--arrow" data-collapse-icon>
+                <use xlink:href="assets/sprite/sprite.svg#icon-arrow-min"></use>
+              </svg>
+            </div>
+            <div class="collapse__content vacancy__collapse-content" data-collapse-content>
+              <div class="collapse--shadow__inner">
+                <p>Локация:</p>
+                <p>открыты вакансии в нескольких районах города Санкт-Петербург</p>
+                <ul class="vacancy__list">
+                  <p>Обязанности:</p>
+                  <li class="vacancy__list-item">Оказывать квалифицированную помощь пациентам гинекологического
+                    профиля;
+                  </li>
+                  <li class="vacancy__list-item">Определять необходимость в дополнительных методах исследований;</li>
+                  <li class="vacancy__list-item">Определять тактики ведения больного в соответствии с установленными
+                    правилами и стандартами;
+                  </li>
+                  <li class="vacancy__list-item">Ведение беременности.</li>
+                </ul>
+                <ul class="vacancy__list">
+                  <p>Требования:</p>
+                  <li class="vacancy__list-item">Мы ищем грамотного специалиста с аналогичным опытом работы от 3-х лет;
+                  </li>
+                  <li class="vacancy__list-item">Обязательно наличие всех документов для осуществления медицинской
+                    деятельности согласно действующего законодательства (Акушерство-гинекология и УЗИ).
+                  </li>
+                </ul>
+                <ul class="vacancy__list">
+                  <p>Основные условия:</p>
+                  <li class="vacancy__list-item">Стабильная заработная плата (оклад + процент от приема);
+                  </li>
+                  <li class="vacancy__list-item">График работы: сменный (обсуждается с каждым специалистом
+                    индивидуально);
+                  </li>
+                  <li class="vacancy__list-item">Мы заботимся о вашем медицинском стаже</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="collapse__wrapper">
+          <div class="collapse__item " data-collapse-item>
+            <div class="collapse__trigger collapse--shadow__trigger" data-collapse-trigger>
+              <p>Врач нефролог</p>
+              <svg class="collapse__icon collapse__icon--arrow" data-collapse-icon>
+                <use xlink:href="assets/sprite/sprite.svg#icon-arrow-min"></use>
+              </svg>
+            </div>
+            <div class="collapse__content vacancy__collapse-content" data-collapse-content>
+              <div class="collapse--shadow__inner">
+                <p>Локация:</p>
+                <p>открыты вакансии в нескольких районах города Санкт-Петербург</p>
+                <ul class="vacancy__list">
+                  <p>Обязанности:</p>
+                  <li class="vacancy__list-item">Оказывать квалифицированную помощь пациентам гинекологического
+                    профиля;
+                  </li>
+                  <li class="vacancy__list-item">Определять необходимость в дополнительных методах исследований;</li>
+                  <li class="vacancy__list-item">Определять тактики ведения больного в соответствии с установленными
+                    правилами и стандартами;
+                  </li>
+                  <li class="vacancy__list-item">Ведение беременности.</li>
+                </ul>
+                <ul class="vacancy__list">
+                  <p>Требования:</p>
+                  <li class="vacancy__list-item">Мы ищем грамотного специалиста с аналогичным опытом работы от 3-х лет;
+                  </li>
+                  <li class="vacancy__list-item">Обязательно наличие всех документов для осуществления медицинской
+                    деятельности согласно действующего законодательства (Акушерство-гинекология и УЗИ).
+                  </li>
+                </ul>
+                <ul class="vacancy__list">
+                  <p>Основные условия:</p>
+                  <li class="vacancy__list-item">Стабильная заработная плата (оклад + процент от приема);
+                  </li>
+                  <li class="vacancy__list-item">График работы: сменный (обсуждается с каждым специалистом
+                    индивидуально);
+                  </li>
+                  <li class="vacancy__list-item">Мы заботимся о вашем медицинском стаже</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section mb-80">
+    <div class="container">
+      <h2 class="title mb-50">Административный персонал</h2>
+      <div class="collapse collapse--shadow mb-70" data-collapse data-duration="700">
+        <div class="collapse__wrapper">
+          <div class="collapse__item " data-collapse-item>
+            <div class="collapse__trigger collapse--shadow__trigger" data-collapse-trigger>
+              <p>Оператор колл-центра</p>
+              <svg class="collapse__icon collapse__icon--arrow" data-collapse-icon>
+                <use xlink:href="assets/sprite/sprite.svg#icon-arrow-min"></use>
+              </svg>
+            </div>
+            <div class="collapse__content vacancy__collapse-content" data-collapse-content>
+              <div class="collapse--shadow__inner">
+                <p>Локация:</p>
+                <p>открыты вакансии в нескольких районах города Санкт-Петербург</p>
+                <ul class="vacancy__list">
+                  <p>Обязанности:</p>
+                  <li class="vacancy__list-item">Оказывать квалифицированную помощь пациентам гинекологического
+                    профиля;
+                  </li>
+                  <li class="vacancy__list-item">Определять необходимость в дополнительных методах исследований;</li>
+                  <li class="vacancy__list-item">Определять тактики ведения больного в соответствии с установленными
+                    правилами и стандартами;
+                  </li>
+                  <li class="vacancy__list-item">Ведение беременности.</li>
+                </ul>
+                <ul class="vacancy__list">
+                  <p>Требования:</p>
+                  <li class="vacancy__list-item">Мы ищем грамотного специалиста с аналогичным опытом работы от 3-х лет;
+                  </li>
+                  <li class="vacancy__list-item">Обязательно наличие всех документов для осуществления медицинской
+                    деятельности согласно действующего законодательства (Акушерство-гинекология и УЗИ).
+                  </li>
+                </ul>
+                <ul class="vacancy__list">
+                  <p>Основные условия:</p>
+                  <li class="vacancy__list-item">Стабильная заработная плата (оклад + процент от приема);
+                  </li>
+                  <li class="vacancy__list-item">График работы: сменный (обсуждается с каждым специалистом
+                    индивидуально);
+                  </li>
+                  <li class="vacancy__list-item">Мы заботимся о вашем медицинском стаже</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="collapse__wrapper">
+          <div class="collapse__item " data-collapse-item>
+            <div class="collapse__trigger collapse--shadow__trigger" data-collapse-trigger>
+              <p>Дежурный оператор</p>
+              <svg class="collapse__icon collapse__icon--arrow" data-collapse-icon>
+                <use xlink:href="assets/sprite/sprite.svg#icon-arrow-min"></use>
+              </svg>
+            </div>
+            <div class="collapse__content vacancy__collapse-content" data-collapse-content>
+              <div class="collapse--shadow__inner">
+                <p>Локация:</p>
+                <p>открыты вакансии в нескольких районах города Санкт-Петербург</p>
+                <ul class="vacancy__list">
+                  <p>Обязанности:</p>
+                  <li class="vacancy__list-item">Оказывать квалифицированную помощь пациентам гинекологического
+                    профиля;
+                  </li>
+                  <li class="vacancy__list-item">Определять необходимость в дополнительных методах исследований;</li>
+                  <li class="vacancy__list-item">Определять тактики ведения больного в соответствии с установленными
+                    правилами и стандартами;
+                  </li>
+                  <li class="vacancy__list-item">Ведение беременности.</li>
+                </ul>
+                <ul class="vacancy__list">
+                  <p>Требования:</p>
+                  <li class="vacancy__list-item">Мы ищем грамотного специалиста с аналогичным опытом работы от 3-х лет;
+                  </li>
+                  <li class="vacancy__list-item">Обязательно наличие всех документов для осуществления медицинской
+                    деятельности согласно действующего законодательства (Акушерство-гинекология и УЗИ).
+                  </li>
+                </ul>
+                <ul class="vacancy__list">
+                  <p>Основные условия:</p>
+                  <li class="vacancy__list-item">Стабильная заработная плата (оклад + процент от приема);
+                  </li>
+                  <li class="vacancy__list-item">График работы: сменный (обсуждается с каждым специалистом
+                    индивидуально);
+                  </li>
+                  <li class="vacancy__list-item">Мы заботимся о вашем медицинском стаже</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="button centered" type="button">Откликнуться</button>
+
+    </div>
+  </section>
+</main>
+<%= htmlWebpackPlugin.options.sectionFooter %>
+<%= htmlWebpackPlugin.options.temp %>
+</body>
+</html>

@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+<link rel="manifest" href="assets/favicons/site.webmanifest">
+<link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#2b5797">
+<meta name="theme-color" content="#ffffff">
+
+
+  <title>Med expert | Правила оплаты</title>
+<link href="./css/main.css" rel="stylesheet"></head>
+<body class="body">
+<header class="section header">
+  <div class="header-top">
+    <div class="container">
+      <div class="header-top__inner">
+        <a class="tel tel--header" href="tel:+74012519000">+7 (4012) 519-000</a>
+        <form class="search-header tab-hidden" action="#" method="post" data-search>
+          <label class="search-header__label" data-search-field>
+            <input class="search-header__input" type="text" placeholder="Поиск по сайту">
+          </label>
+          <button type="button" data-search-btn>
+            <svg class="search-header__icon">
+              <use xlink:href="assets/sprite/sprite.svg#icon-search"></use>
+            </svg>
+          </button>
+        </form>
+        <a class="lk tab-hidden" data-fancybox data-src="#lk">
+          <svg class="lk__icon">
+            <use xlink:href="assets/sprite/sprite.svg#icon-lk"></use>
+          </svg>
+          <p class="lk__text">Личный кабинет</p>
+        </a>
+        <div class="mob-menu">
+          <button class="mob-menu__burger" type="button" data-burger>
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="mob-menu__content" data-mob-menu>
+            <div class="lk lk--mobile">
+              <picture class="lk__userpic">
+                <img src="assets/images/doc-2.jpg" alt="">
+              </picture>
+              <svg class="lk--mobile__icon" style="display: none">
+                <use xlink:href="assets/sprite/sprite.svg#icon-lk"></use>
+              </svg>
+              <div class="lk__content">
+                <p class="lk--mobile__text-bold" data-lk-name>Екатерина Птушкина</p>
+                <p class="lk--mobile__text" data-lk-mail>info@mail.ru</p>
+              </div>
+            </div>
+            <form class="search search--mobile" action="#" method="post" data-form>
+              <label class="search__label">
+                <input class="search__input" type="text" placeholder="Поиск по сайту">
+              </label>
+              <button class="search__button" type="submit">
+                <svg class="search__icon">
+                  <use xlink:href="assets/sprite/sprite.svg#icon-search"></use>
+                </svg>
+              </button>
+            </form>
+            <ul class="mob-menu__list">
+              <li class="mob-menu__item">
+                <a class="mob-menu__link" href="#">
+                  <svg class="mob-menu__link-icon">
+                    <use xlink:href="assets/sprite/sprite.svg#icon-service"></use>
+                  </svg>
+                  <span>Услуги</span>
+                </a>
+              </li>
+              <li class="mob-menu__item">
+                <a class="mob-menu__link" href="#">
+                  <svg class="mob-menu__link-icon">
+                    <use xlink:href="assets/sprite/sprite.svg#icon-clinic"></use>
+                  </svg>
+                  <span>Клиники</span>
+                </a>
+              </li>
+              <li class="mob-menu__item">
+                <a class="mob-menu__link" href="#">
+                  <svg class="mob-menu__link-icon">
+                    <use xlink:href="assets/sprite/sprite.svg#icon-docs"></use>
+                  </svg>
+                  <span>Врачи</span>
+                </a>
+              </li>
+              <li class="mob-menu__item">
+                <a class="mob-menu__link" href="#">
+                  <svg class="mob-menu__link-icon">
+                    <use xlink:href="assets/sprite/sprite.svg#icon-client"></use>
+                  </svg>
+                  <span>Пациентам</span>
+                </a>
+              </li>
+              <li class="mob-menu__item">
+                <a class="mob-menu__link" href="#">
+                  <svg class="mob-menu__link-icon">
+                    <use xlink:href="assets/sprite/sprite.svg#icon-about"></use>
+                  </svg>
+                  <span>О компании</span>
+                </a>
+              </li>
+              <li class="mob-menu__item">
+                <a class="mob-menu__link" href="#">
+                  <svg class="mob-menu__link-icon">
+                    <use xlink:href="assets/sprite/sprite.svg#icon-tel"></use>
+                  </svg>
+                  <span>Контакты</span>
+                </a>
+              </li>
+            </ul>
+
+            <a class="mob-menu__link-leave" href="#">
+              <svg>
+                <use xlink:href="assets/sprite/sprite.svg#icon-leave"></use>
+              </svg>
+              <p>Выйти</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header-bottom">
+    <div class="container">
+      <div class="columns">
+        <div class="columns__col--3 columns__col-tab--6">
+          <a class="logo" href="./">
+            <img src="assets/images/logo-big.svg" alt="сеть клиник “Медэксперт”">
+          </a>
+        </div>
+        <div class="columns__col--9 columns__col-tab--6">
+          <div class="header-bottom__inner">
+            <nav class="header__nav">
+              <ul class="header__nav-list">
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="#">Услуги</a>
+                </li>
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="#">Клиники</a>
+                </li>
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="#">Врачи</a>
+                </li>
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="#">Пациентам</a>
+                </li>
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="#">О компании</a>
+                </li>
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="#">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <a class="button button--wide" href="#">Записаться на прием</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<main class="main">
+  <section class="section">
+    <div class="container">
+      <div class="breadcrumbs">
+        <a class="breadcrumbs__link" href="./">Главная</a>
+        <a class="breadcrumbs__link" href="./">Пациентам</a>
+        <span class="breadcrumbs__curr-page">Правила оплаты</span>
+      </div>
+    </div>
+  </section>
+  <section class="section mb-80">
+    <div class="container">
+      <h1 class="title title--page mb-40">Правила оплаты</h1>
+      <div class="columns">
+        <div class="columns__col--4 columns__col-tab--4 columns__col-mob--12">
+          <a class="card card--gray" href="#" download="">
+            <svg class="card--gray__icon">
+              <use xlink:href="assets/sprite/sprite.svg#icon-file"></use>
+            </svg>
+            <p class="card--gray__text">Правила и обязанности граждан в сфере охраны труда</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section mb-80">
+    <div class="container">
+      <h2 class="title title--page">заголовок 1</h2>
+      <div class="editor editor--18 fw--300 mb-20">
+        <p class="fw--500">заголовок 3</p>
+        <p>контент Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores commodi culpa cumque
+          cupiditate dignissimos dolorem in, nemo nesciunt non nostrum quae repellendus sint sunt tenetur? Adipisci
+          beatae illum similique.</p>
+      </div>
+      <div class="editor editor--18 fw--300 mb-40">
+        <p class="fw--500">заголовок 3</p>
+        <ul class="list list--dots">
+          <li>паспорт гражданина РФ,</li>
+          <li>иностранный паспорт, вид на жительство, разрешение на временное проживание или иной документ,
+            удостоверяющий личность, выданный иностранным государством – для иностранных граждан,
+          </li>
+          <li>загранпаспорт гражданина РФ (для граждан РФ, постоянно проживающих за пределами РФ),</li>
+          <li>временное удостоверение личности гражданина РФ (форма 2-П),</li>
+          <li>удостоверение личности военнослужащего, военный билет,</li>
+          <li>удостоверение личности моряка.</li>
+        </ul>
+      </div>
+
+      <div class="editor editor--18 fw--300 mb-20">
+        <p class="fw--500">заголовок 3</p>
+        <p>Вы должны быть законным представителем ребенка (то есть одним из родителей, усыновителей). <span
+          class="color--green"> При себе необходимо
+          иметь паспорт и свидетельство о рождении ребенка или паспорт для несовершеннолетних от 14 до 18 лет.</span>
+        </p>
+        <p>
+          Если Вы не являетесь законным представителем (то есть приходитесь ребенку бабушкой/дедушкой, тетей/дядей,
+          братом/сестрой, няней и иным лицом) – вам обязательно нужно предъявить в клинике нотариально оформленную
+          доверенность, предусматривающую полномочие указанного лица (то есть Вас) осуществлять определенные действия от
+          имени законного представителя несовершеннолетнего (доверенность от законного представителя несовершеннолетнего
+          лица) <span
+          class="color--green">или законный представитель может оформить доверенность на Вас в клинике.</span></p>
+      </div>
+      <h2 class="title title--page">заголовок 2</h2>
+      <div class="editor editor--18 fw--300 mb-20">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet atque doloremque eaque esse maxime, quos saepe
+          vel? Aperiam autem, corporis doloribus expedita explicabo, minima natus officiis, quisquam quo saepe sed.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet atque doloremque eaque esse maxime, quos saepe
+          vel? Aperiam autem, corporis doloribus expedita explicabo, minima natus officiis, quisquam quo saepe sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet atque doloremque eaque esse maxime, quos saepe
+          vel? Aperiam autem, corporis doloribus expedita explicabo, minima natus officiis, quisquam quo saepe sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet atque doloremque eaque esse maxime, quos saepe
+          vel? Aperiam autem, corporis doloribus expedita explicabo, minima natus officiis, quisquam quo saepe sed.</p>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="section footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div class="columns">
+        <div class="columns__col--3 columns__col-tab--12">
+          <a class="logo footer__logo" href="./">
+            <img src="assets/images/logo-big.svg" alt="сеть клиник “Медэксперт”">
+          </a>
+          <a class="tel tel--footer tab-hidden" href="tel:+74012519000">+7 (4012) 519-000</a>
+          <div class="footer__socials tab-hidden">
+            <a class="footer__socials-link" href="#">
+              <svg class="footer__socials-icon">
+                <use xlink:href="assets/sprite/sprite.svg#icon-vk"></use>
+              </svg>
+            </a>
+            <a class="footer__socials-link" href="#">
+              <svg class="footer__socials-icon">
+                <use xlink:href="assets/sprite/sprite.svg#icon-yt"></use>
+              </svg>
+            </a>
+          </div>
+          <a class="footer__contacts tab-hidden" href="#">Контакты</a>
+          <a class="footer__privacy tab-hidden" href="#">Политика конфидециальности</a>
+          <div class="footer__copyright tab-hidden">
+            <p>© ООО “Медэксперт”</p>
+            <p>Все права защищены 2023</p>
+          </div>
+        </div>
+        <div class="columns__col--9 columns__col-tab--9 columns__col-mob--12">
+          <ul class="footer__menu-list">
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="#">Услуги</a>
+              <ul class="footer__menu-list--inner">
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Лечение</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Лечение детей</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Лабораторные исследования</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Диагностика</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Восстановление</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Первая помощь</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Вакцинация</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Медицинские программы</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Программы для детей</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Цены по направлениям</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Скачать прайс лист</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Акции</a>
+                </li>
+              </ul>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="#">О компании</a>
+              <ul class="footer__menu-list--inner">
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Вакансии</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Лицензии</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">История</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Миссия компании</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Руководство</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Партнеры</a>
+                </li>
+              </ul>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="#">Пациентам</a>
+              <ul class="footer__menu-list--inner footer__menu-list--inner-col2">
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Вход в личный кабинет</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Запись на прием</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Программы обслуживания</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Отзывы</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Вопросы и ответы</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">ДМС</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Страховые компании</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Новости</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Обработка данных</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Информация для пациентов</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Подготовка к диагностике</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Правила посещения клиники</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Правила посещения стационара</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Правила оплаты</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <div class="footer__bottom">
+            <div class="footer__developer">
+              <p>Разработано</p>
+              <svg class="search__icon">
+                <use xlink:href="assets/sprite/sprite.svg#icon-diez"></use>
+              </svg>
+            </div>
+            <a class="footer__contacts desktop-hidden" href="#">Контакты</a>
+            <div class="flex align-items-center gap-30 mb-15">
+              <a class="button" href="#">Записаться на прием</a>
+              <div class="footer__socials desktop-hidden">
+                <a class="footer__socials-link" href="#">
+                  <svg class="footer__socials-icon">
+                    <use xlink:href="assets/sprite/sprite.svg#icon-vk"></use>
+                  </svg>
+                </a>
+                <a class="footer__socials-link" href="#">
+                  <svg class="footer__socials-icon">
+                    <use xlink:href="assets/sprite/sprite.svg#icon-yt"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="flex flex--column desktop-hidden">
+              <a class="tel tel--footer" href="tel:+74012519000">+7 (4012) 519-000</a>
+              <a class="footer__privacy mb-20" href="#">Политика конфидециальности</a>
+              <div class="footer__copyright mb-30">
+                <p>© ООО “Медэксперт”</p>
+                <p>Все права защищены 2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div hidden>
+    <div class="modal lab-price" id="lab-price">
+      <div class="lab-price__content">
+        <div class="lab-price__title">Гематолог</div>
+        <ul class="lab-price__list">
+          <li>В01.005.001 Прием (осмотр) врача-гематолога первичный — <b>1600 руб.</b></li>
+          <li>В01.005.002 Прием (осмотр) врача-гематолога повторный — <b>1400 руб.</b></li>
+          <li>А11.05.002 Получение цитологического препарата костного мозга путем пункции, без анестезии — <b>2100
+            руб.</b></li>
+          <li>А11.05.002 Получение цитологического препарата костного мозга путем пункции, с анестезией — <b>2300
+            руб.</b></li>
+        </ul>
+        <button class="button" type="button">Записаться</button>
+      </div>
+    </div>
+
+    <div class="modal modal--lk" id="lk">
+      <div class="lk__content">
+        <div class="lk__title">Возникли вопросы?</div>
+        <p>Заполните форму ниже, чтобы наш оператор смог дать вам обратную связь</p>
+      </div>
+      <form class="form" action="#">
+        <label class="label">
+          <svg class="label__icon">
+            <use xlink:href="assets/sprite/sprite.svg#icon-mail"></use>
+          </svg>
+          <input type="email" placeholder="E-mail">
+        </label>
+        <label class="label">
+          <svg class="label__icon">
+            <use xlink:href="assets/sprite/sprite.svg#icon-tel"></use>
+          </svg>
+          <input type="tel" data-tel>
+        </label>
+        <label class="label">
+          <svg class="label__icon">
+            <use xlink:href="assets/sprite/sprite.svg#icon-tooltip"></use>
+          </svg>
+          <textarea placeholder="Подробно опишите вашу проблему"></textarea>
+        </label>
+        <button class="button" type="submit">Отправить</button>
+      </form>
+    </div>
+  </div>
+  </div>
+</footer>
+<!-- Это временная секция, здесь ссылки на все страницы. На продакшене ее не будет -->
+<section class="section">
+  <div class="container">
+    <style>
+        .temp {
+            gap: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 60px 0;
+        }
+
+        .temp__link {
+            color: inherit;
+            font-size: 16px;
+            text-decoration: underline;
+        }
+
+        .temp__link:hover {
+            text-decoration: none;
+        }
+    </style>
+    <div class="temp">
+      <div class="flex flex--column gap-15 mb-50">
+        <h1>done</h1>
+        <a href="./index.html" class="temp__link">Главная</a>
+        <a href="./services.html" class="temp__link">2. Услуги</a>
+        <a href="./services-detail.html" class="temp__link">2. 1 Карточка Услуги (направления)</a>
+        <a href="./vaccination.html" class="temp__link">2.2.Вакцинация</a>
+        <a href="./sales.html" class="temp__link">2.4. Цены по направлениям</a>
+        <a href="./med-programs.html" class="temp__link">2.6. Медицинские программы</a>
+        <a href="./first-aid.html" class="temp__link">2.9. Первая помощь</a>
+        <a href="./ambulance.html" class="temp__link">2.9.1 Скорая помощь</a>
+        <a href="./price-by-options.html" class="temp__link">2.10. Цены по направлениям </a>
+        <a href="./curing.html" class="temp__link">2.11. Лечение</a>
+        <a href="./labtest.html" class="temp__link">2.13. Лабораторные исследования</a>
+        <a href="./about.html" class="temp__link">3. О компании</a>
+        <a href="./about-history.html" class="temp__link">3.2 О компании / История</a>
+        <a href="./about-advisors.html" class="temp__link">3.4 О компании / Руководство</a>
+        <a href="./docs.html" class="temp__link">4. Врачи</a>
+        <a href="./reviews.html" class="temp__link">6.1. Отзывы</a>
+        <a href="./faq.html" class="temp__link">6.2. Вопросы и ответы</a>
+        <a href="./dms.html" class="temp__link">6.4. ДМС</a>
+        <a href="./programs.html" class="temp__link">6.5. Программы обслуживания</a>
+        <a href="./news.html" class="temp__link">6.7. Новости</a>
+        <a href="./news-detail.html" class="temp__link">6.8. Новости деталка</a>
+        <a href="./tax.html" class="temp__link">Налоговый вычет</a>
+        <a href="./404.html" class="temp__link">404</a>
+      </div>
+      <div class="flex flex--column gap-15">
+        <h1>in progress</h1>
+        <a href="./for-kids.html" class="temp__link">2.5. Программы для детей</a>
+        <a href="./rehab.html" class="temp__link">2.8. Восстановление</a>
+        <a href="./curing-child.html" class="temp__link">2.12. Лечение детей</a>
+        <a href="./catalog.html" class="temp__link">2.13.1. Каталог исследования</a>
+        <a href="./catalog-detail.html" class="temp__link">2.13.2. Деталка исследования</a>
+        <a href="./about-vacancy.html" class="temp__link">3.1 О компании / Вакансии</a>
+        <a href="./about-mission.html" class="temp__link">3.3 О компании / Миссия компании</a>
+        <a href="./about-license.html" class="temp__link">3.5 О компании / Лицензии</a>
+        <a href="./docs-detail.html" class="temp__link">4. 1. Карточка специалиста</a>
+        <a href="./clinics.html" class="temp__link">5. Клиники</a>
+        <a href="./clinics-detail.html" class="temp__link">5. 1. Карточка центра</a>
+        <a href="./patients.html" class="temp__link">6. Пациентам</a>
+        <a href="./data.html" class="temp__link">6.3. Обработка данных</a>
+        <a href="./patients-info.html" class="temp__link">6.9. Информация для пациентов</a>
+        <a href="./rules-clinic.html" class="temp__link">6.11. Правила посещения клиники</a>
+        <a href="./rules-hosp.html" class="temp__link">6.11. Правила посещения стационара</a>
+        <a href="./payment.html" class="temp__link">6.12. Правила оплаты</a>
+        <a href="./search.html" class="temp__link">6.13. Поиск</a>
+        <a href="./lk.html" class="temp__link">7.1 Личный кабинет</a>
+        <a href="./ecosistem.html" class="temp__link">7.2 Экосистема для клиентов</a>
+      </div>
+    </div>
+  </div>
+</section>
+<script defer src="js/bundle.js"></script></body>
+</html>

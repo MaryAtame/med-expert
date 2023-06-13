@@ -1,0 +1,156 @@
+.collapse {
+  &__wrapper {
+    width: 100%;
+  }
+
+  &__item {
+    width: 100%;
+  }
+
+  &__trigger {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: rem(24) 0;
+    transition: all .3s ease-in-out;
+  }
+
+
+  &__content {
+    max-height: 0;
+    overflow: hidden;
+  }
+  &__content.collapse-show {
+    height: auto;
+    max-height: fit-content;
+  }
+
+  &__inner-min-padding {
+    padding: 0 rem(100) rem(40);
+  }
+
+  &__icon--arrow {
+    width: rem(15);
+    height: rem(15);
+    transform: rotate(90deg);
+    fill: $darkGreen;
+    margin-left: rem(15);
+    transition: all .3s ease-in-out;
+  }
+
+  &__icon--arrow.active {
+    transform: rotate(270deg);
+  }
+
+  &--simple {
+    &__trigger {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: rem(44) rem(60) rem(32);
+
+      @include r(767) {
+        padding: rem(30);
+      }
+
+      p {
+        font-size: rem(24);
+        font-weight: 600;
+        margin-bottom: rem(10);
+        @include r(767) {
+          font-size: rem(16);
+        }
+      }
+
+      span {
+        font-size: rem(16);
+        font-weight: 300;
+      }
+    }
+
+    &__wrapper {
+      background-color: #F2F4F6;
+      border-radius: 10px;
+      margin-bottom: rem(20);
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    &__inner {
+      padding: rem(30) rem(60) rem(40);
+      @include r(767) {
+        padding: rem(30);
+      }
+    }
+
+    &__inner-small {
+      padding: 0 rem(40);
+    }
+  }
+
+  &--line {
+    .collapse__trigger.active {
+      border-bottom: 2px solid #DBE2EA;
+    }
+  }
+
+  &--line-white {
+    .collapse__trigger.active {
+      border-bottom: 2px solid #FFFFFF;
+    }
+  }
+
+  &--shadow {
+    padding: 0 rem(30);
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 8px 3px rgba(157, 157, 157, 0.2);
+    -moz-box-shadow: 0px 0px 8px 3px rgba(157, 157, 157, 0.2);
+    box-shadow: 0px 0px 8px 3px rgba(157, 157, 157, 0.2);
+
+    &__trigger {
+      justify-content: flex-start;
+      font-size: rem(20);
+      font-weight: 400;
+      border-bottom: 1px solid #E1E5EA;
+      @include r(767) {
+        font-size: rem(18);
+      }
+    }
+
+    &__trigger.active {
+      border-bottom: none;
+    }
+
+    &__inner {
+      padding: rem(30) rem(30) rem(20);
+      border-bottom: 1px solid #E1E5EA;
+    }
+  }
+
+  &--clear {
+    &__trigger {
+      justify-content: flex-start;
+      gap: rem(15);
+      color: $green;
+    }
+
+    &__trigger.active {
+      color: $darkGreen;
+    }
+  }
+
+  &--color {
+  }
+
+  &__trigger--big {
+    padding: rem(40) 0;
+  }
+
+  &__trigger--pad-l {
+    padding: rem(40) rem(100);
+  }
+
+}
