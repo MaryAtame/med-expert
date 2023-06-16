@@ -223,6 +223,25 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/assets/sprite/icon-clinic-1.svg":
+/*!*********************************************!*\
+  !*** ./src/assets/sprite/icon-clinic-1.svg ***!
+  \*********************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ({
+      id: "icon-clinic-1-usage",
+      viewBox: "0 0 34 25",
+      url: "/assets/sprite/" + "sprite.svg#icon-clinic-1-usage",
+      toString: function () {
+        return this.url;
+      }
+    });
+
+/***/ }),
+
 /***/ "./src/assets/sprite/icon-clinic.svg":
 /*!*******************************************!*\
   !*** ./src/assets/sprite/icon-clinic.svg ***!
@@ -235,6 +254,25 @@ __webpack_require__.r(__webpack_exports__);
       id: "icon-clinic-usage",
       viewBox: "0 0 16 16",
       url: "/assets/sprite/" + "sprite.svg#icon-clinic-usage",
+      toString: function () {
+        return this.url;
+      }
+    });
+
+/***/ }),
+
+/***/ "./src/assets/sprite/icon-couch.svg":
+/*!******************************************!*\
+  !*** ./src/assets/sprite/icon-couch.svg ***!
+  \******************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ({
+      id: "icon-couch-usage",
+      viewBox: "0 0 33 33",
+      url: "/assets/sprite/" + "sprite.svg#icon-couch-usage",
       toString: function () {
         return this.url;
       }
@@ -337,6 +375,25 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/assets/sprite/icon-heart-1.svg":
+/*!********************************************!*\
+  !*** ./src/assets/sprite/icon-heart-1.svg ***!
+  \********************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ({
+      id: "icon-heart-1-usage",
+      viewBox: "0 0 32 30",
+      url: "/assets/sprite/" + "sprite.svg#icon-heart-1-usage",
+      toString: function () {
+        return this.url;
+      }
+    });
+
+/***/ }),
+
 /***/ "./src/assets/sprite/icon-hospital.svg":
 /*!*********************************************!*\
   !*** ./src/assets/sprite/icon-hospital.svg ***!
@@ -413,6 +470,25 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/assets/sprite/icon-list.svg":
+/*!*****************************************!*\
+  !*** ./src/assets/sprite/icon-list.svg ***!
+  \*****************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ({
+      id: "icon-list-usage",
+      viewBox: "0 0 26 36",
+      url: "/assets/sprite/" + "sprite.svg#icon-list-usage",
+      toString: function () {
+        return this.url;
+      }
+    });
+
+/***/ }),
+
 /***/ "./src/assets/sprite/icon-lk.svg":
 /*!***************************************!*\
   !*** ./src/assets/sprite/icon-lk.svg ***!
@@ -444,6 +520,25 @@ __webpack_require__.r(__webpack_exports__);
       id: "icon-location-usage",
       viewBox: "0 0 18 20",
       url: "/assets/sprite/" + "sprite.svg#icon-location-usage",
+      toString: function () {
+        return this.url;
+      }
+    });
+
+/***/ }),
+
+/***/ "./src/assets/sprite/icon-lock.svg":
+/*!*****************************************!*\
+  !*** ./src/assets/sprite/icon-lock.svg ***!
+  \*****************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ({
+      id: "icon-lock-usage",
+      viewBox: "0 0 13 17",
+      url: "/assets/sprite/" + "sprite.svg#icon-lock-usage",
       toString: function () {
         return this.url;
       }
@@ -641,6 +736,25 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/assets/sprite/icon-money.svg":
+/*!******************************************!*\
+  !*** ./src/assets/sprite/icon-money.svg ***!
+  \******************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ({
+      id: "icon-money-usage",
+      viewBox: "0 0 34 23",
+      url: "/assets/sprite/" + "sprite.svg#icon-money-usage",
+      toString: function () {
+        return this.url;
+      }
+    });
+
+/***/ }),
+
 /***/ "./src/assets/sprite/icon-pen.svg":
 /*!****************************************!*\
   !*** ./src/assets/sprite/icon-pen.svg ***!
@@ -824,6 +938,25 @@ __webpack_require__.r(__webpack_exports__);
       id: "icon-star-usage",
       viewBox: "0 0 23 22",
       url: "/assets/sprite/" + "sprite.svg#icon-star-usage",
+      toString: function () {
+        return this.url;
+      }
+    });
+
+/***/ }),
+
+/***/ "./src/assets/sprite/icon-stethoscope.svg":
+/*!************************************************!*\
+  !*** ./src/assets/sprite/icon-stethoscope.svg ***!
+  \************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ({
+      id: "icon-stethoscope-usage",
+      viewBox: "0 0 33 36",
+      url: "/assets/sprite/" + "sprite.svg#icon-stethoscope-usage",
       toString: function () {
         return this.url;
       }
@@ -1327,14 +1460,15 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function createSlider(el) {
-
   let swiper = swiper__WEBPACK_IMPORTED_MODULE_0__["default"];
   let init = false;
   const desktop = window.matchMedia("(min-width: 767px)");
   const mobile = window.matchMedia("(min-width: 0px) and (max-width: 766px)");
   const looped = el.hasAttribute("data-slider-looped");
 
-  const slidesQuantity = el.getAttribute("data-slider-slides");
+  const slidesQuantity = parseInt(el.getAttribute("data-slider-slides"), 10);
+  const slidesQuantityTab = parseInt(el.getAttribute("data-slider-slides-tab"), 10);
+  const slidesQuantityMob = parseInt(el.getAttribute("data-slider-slides-mob"), 10);
   const pagination = el.querySelector("[data-slider-pagination]") || null;
   const desktopOnly = !!el.hasAttribute("data-slider-desktop");
   const mobileOnly = !!el.hasAttribute("data-slider-mobile");
@@ -1379,7 +1513,7 @@ function createSlider(el) {
         clickable: true,
         type: "bullets",
         bulletClass: "bullet",
-        bulletActiveClass: "bullet--active",
+        bulletActiveClass: "bullet--active"
       },
       navigation: {
         nextEl: el.querySelector("[data-slider-next]"),
@@ -1391,21 +1525,12 @@ function createSlider(el) {
           spaceBetween: 20
         },
         768: {
-          slidesPerView:
-            parseInt(slidesQuantity, 10) - 1 <= 0
-              ? 1
-              : parseInt(slidesQuantity, 10) - 1,
+          slidesPerView: slidesQuantityTab || 2,
           spaceBetween: 20
         },
-        576: {
-          slidesPerView:
-            parseInt(slidesQuantity, 10) - 2 <= 0
-              ? 1
-              : parseInt(slidesQuantity, 10) - 1,
-          spaceBetween: 20
-        },
+
         320: {
-          slidesPerView: 1,
+          slidesPerView: slidesQuantityMob || 1,
           spaceBetween: 20
         }
       }
@@ -1428,41 +1553,41 @@ function createSlider(el) {
 /***/ (function() {
 
 document.addEventListener("DOMContentLoaded", () => {
-  initTabs();
+  const tabs = document.querySelectorAll("[data-tabs-container]");
+  tabs.forEach((item) => new Tabs(item));
 });
 
-function initTabs() {
-  const tabsBtn = document.querySelectorAll("[data-tabs-trigger]");
-  const tabsItems = document.querySelectorAll("[data-tabs-list]");
+class Tabs {
+  constructor(item) {
+    this.item = item;
+    this.trigger = item.querySelectorAll("[data-tabs-trigger]");
+    this.content = item.querySelectorAll("[data-tabs-list]");
+    this.setListeners();
+  }
 
-  tabsBtn.forEach((item) => {
-    item.addEventListener("click", () => {
-      const currentBtn = item;
-      const tabId = currentBtn.getAttribute("data-tabs");
-      const currentTab = document.getElementById(tabId);
+  setListeners() {
+    this.setActiveTab();
+  }
 
-      if (!currentTab.classList.contains("active")) {
-        tabsBtn.forEach((item) => {
-          item.classList.remove("active");
+  setActiveTab() {
+    this.trigger.forEach((currentBtn) => {
+      currentBtn.addEventListener("click", () => {
+        const prevBtn = this.item.querySelectorAll("[data-tabs-trigger]");
+        const prevContent = this.item.querySelectorAll("[data-tabs-list]");
+        prevBtn.forEach((btn) => {
+          btn.classList.remove("active");
         });
-
-        tabsItems.forEach((item) => {
-          item.classList.remove("active");
+        prevContent.forEach((content) => {
+          content.classList.remove("active");
         });
-
+        const tabId = currentBtn.getAttribute("data-tabs");
+        const currentTab = document.getElementById(tabId);
         currentBtn.classList.add("active");
         currentTab.classList.add("active");
-      } else if (currentTab.classList.contains("active")) {
-
-        currentBtn.classList.remove("active");
-        currentTab.classList.remove("active");
-      }
+      });
     });
-  });
-}
-
-
-
+  }
+};
 
 /***/ }),
 
@@ -1576,6 +1701,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_sprite_icon_viber_svg__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! ../assets/sprite/icon-viber.svg */ "./src/assets/sprite/icon-viber.svg");
 /* harmony import */ var _assets_sprite_icon_pencil_svg__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! ../assets/sprite/icon-pencil.svg */ "./src/assets/sprite/icon-pencil.svg");
 /* harmony import */ var _assets_sprite_icon_tooltip_svg__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! ../assets/sprite/icon-tooltip.svg */ "./src/assets/sprite/icon-tooltip.svg");
+/* harmony import */ var _assets_sprite_icon_lock_svg__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! ../assets/sprite/icon-lock.svg */ "./src/assets/sprite/icon-lock.svg");
+/* harmony import */ var _assets_sprite_icon_stethoscope_svg__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(/*! ../assets/sprite/icon-stethoscope.svg */ "./src/assets/sprite/icon-stethoscope.svg");
+/* harmony import */ var _assets_sprite_icon_heart_1_svg__WEBPACK_IMPORTED_MODULE_54__ = __webpack_require__(/*! ../assets/sprite/icon-heart-1.svg */ "./src/assets/sprite/icon-heart-1.svg");
+/* harmony import */ var _assets_sprite_icon_money_svg__WEBPACK_IMPORTED_MODULE_55__ = __webpack_require__(/*! ../assets/sprite/icon-money.svg */ "./src/assets/sprite/icon-money.svg");
+/* harmony import */ var _assets_sprite_icon_clinic_1_svg__WEBPACK_IMPORTED_MODULE_56__ = __webpack_require__(/*! ../assets/sprite/icon-clinic-1.svg */ "./src/assets/sprite/icon-clinic-1.svg");
+/* harmony import */ var _assets_sprite_icon_couch_svg__WEBPACK_IMPORTED_MODULE_57__ = __webpack_require__(/*! ../assets/sprite/icon-couch.svg */ "./src/assets/sprite/icon-couch.svg");
+/* harmony import */ var _assets_sprite_icon_list_svg__WEBPACK_IMPORTED_MODULE_58__ = __webpack_require__(/*! ../assets/sprite/icon-list.svg */ "./src/assets/sprite/icon-list.svg");
+
+
+
+
+
+
+
 
 
 
@@ -1682,6 +1821,13 @@ __webpack_require__.r(__webpack_exports__);
   viber: _assets_sprite_icon_viber_svg__WEBPACK_IMPORTED_MODULE_49__["default"],
   pencil: _assets_sprite_icon_pencil_svg__WEBPACK_IMPORTED_MODULE_50__["default"],
   tooltip: _assets_sprite_icon_tooltip_svg__WEBPACK_IMPORTED_MODULE_51__["default"],
+  lock: _assets_sprite_icon_lock_svg__WEBPACK_IMPORTED_MODULE_52__["default"],
+  stethoscope: _assets_sprite_icon_stethoscope_svg__WEBPACK_IMPORTED_MODULE_53__["default"],
+  heart: _assets_sprite_icon_heart_1_svg__WEBPACK_IMPORTED_MODULE_54__["default"],
+  money: _assets_sprite_icon_money_svg__WEBPACK_IMPORTED_MODULE_55__["default"],
+  clinicSecond: _assets_sprite_icon_clinic_1_svg__WEBPACK_IMPORTED_MODULE_56__["default"],
+  couch: _assets_sprite_icon_couch_svg__WEBPACK_IMPORTED_MODULE_57__["default"],
+  list: _assets_sprite_icon_list_svg__WEBPACK_IMPORTED_MODULE_58__["default"],
 });
 
 

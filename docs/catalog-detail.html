@@ -16,7 +16,8 @@
   <title>Med expert | Обследование щитовидной железы</title>
 <link href="./css/main.css" rel="stylesheet"></head>
 <body class="body">
-<header class="section header">
+<div class="main-container">
+  <header class="section header">
   <div class="header-top">
     <div class="container">
       <div class="header-top__inner">
@@ -31,7 +32,7 @@
             </svg>
           </button>
         </form>
-        <a class="lk tab-hidden" data-fancybox data-src="#lk">
+        <a href="cabinet.html" class="lk tab-hidden">
           <svg class="lk__icon">
             <use xlink:href="assets/sprite/sprite.svg#icon-lk"></use>
           </svg>
@@ -167,323 +168,338 @@
     </div>
   </div>
 </header>
-<main class="main">
-  <section class="section mb-50 mbm-35">
-    <div class="container">
-      <div class="breadcrumbs">
-        <a class="breadcrumbs__link" href="./">Главная</a>
-        <a class="breadcrumbs__link" href="./">Услуги</a>
-        <a class="breadcrumbs__link" href="./">Лабораторные исследования</a>
-        <a class="breadcrumbs__link" href="./">Каталог</a>
-        <span class="breadcrumbs__curr-page">Обследование щитовидной железы</span>
-      </div>
-    </div>
-  </section>
-  <section class="section mb-100 mbm-55">
-    <div class="container">
-      <h1 class="title title--page mb-45 mbm-25">Обследование щитовидной железы</h1>
-      <div class="columns">
-        <div class="columns__col--9 columns__col-tab--8 columns__col-mob--12 order-m-2">
-          <div class="tabs" data-tabs>
-            <div class="tabs__controls tabs__controls--line mb-40 mbm-35">
-              <p class="tabs__trigger tabs__trigger--desk active" data-tabs-trigger data-tabs="tab-1">Об
-                исследовании</p>
-              <p class="tabs__trigger tabs__trigger--desk" data-tabs-trigger data-tabs="tab-2">Как подготовиться</p>
-              <p class="tabs__trigger tabs__trigger--desk" data-tabs-trigger data-tabs="tab-3">Расшифровка</p>
-            </div>
-            <ul class="tabs__list">
-              <li class="tabs__item fz--18 active" id="tab-1" data-tabs-list>
-                <div class="editor editor--18 mb-30 mbm-40">
-                  <p>Комплексное исследование объединяет 4 анализа, обязательных для госпитализации, постановки на учет,
-                    перевода из/в лечебное учреждение, получения санитарной книжки, получения разрешения на работу в РФ
-                    и пр. Исследования позволяют обнаружить заболевания, передаваемые при медицинских процедурах и
-                    половым путем: ВИЧ, гепатиты В и С, сифилис. В случае анонимной сдачи данного обследования не
-                    требуется указывать паспортные данные (Ф. И. О, адрес постоянного места жительства,
-                    гражданство).</p>
-                </div>
-                <div class="color-block color-block--pink mb-40">
-                  <p>Этот анализ принимается по сокращённому графику. Это связано с тем, что биоматериал должен попасть
-                    в лабораторию в очень короткий срок. Проверьте расписание сокращённого графика приёма на странице
-                    вашего отделения.</p>
-                  <div class="icon icon--big">
-                    <svg>
-                      <use xlink:href="assets/sprite/sprite.svg#icon-micro"></use>
-                    </svg>
-                  </div>
-                </div>
-                <div class="editor editor--18 mb-70 mbm-40">
-                  <p class="fw--500">Синонимы и связанные понятия</p>
-                  <a href="#">Serum zinc,</a>
-                  <a href="#">Serum zinc test,</a>
-                  <a href="#">Vitamin D,</a>
-                  <a href="#">Vitamin D3 metabolite,</a>
-                  <a href="#">Zinc blood testing,</a>
-                  <a href="#">анализ крови на витамин D,</a>
-                  <a href="#">анализ крови на цинк,</a>
-                  <a href="#">витамин D,</a>
-                  <a href="#">цинк в сыворотке крови</a>
-                </div>
-                <div class="flex flex--column mb-60 mbm-35">
-                  <p class="fz--24 fzm--20 fw--500 mb-20 mbm-10">Состав комплекса</p>
-                  <div class="collapse collapse--clear" data-collapse data-duration="700">
-                    <div class="collapse__wrapper">
-                      <div class="collapse__item" data-collapse-item>
-                        <div class="collapse__trigger collapse--clear__trigger active" data-collapse-trigger>
-                          <span class="button-plus button-plus--small active" data-collapse-icon></span>
-                          <div class="fw--500">
-                            <p>Витамин D суммарный (25-OH D2 и D3, общий результат)</p>
-                          </div>
-                        </div>
-                        <div class="collapse__content collapse-show" data-collapse-content>
-                          <div class="collapse__inner">
-                            <div class="color-block color-block--green">
-                              <p>Исследование показывает общий уровень витамина D и позволяет выявить его дефицит или
-                                переизбыток, нарушения кальциевого обмена.</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="collapse__wrapper">
-                      <div class="collapse__item" data-collapse-item>
-                        <div class="collapse__trigger collapse--clear__trigger" data-collapse-trigger>
-                          <span class="button-plus button-plus--small" data-collapse-icon></span>
-                          <div class="fw--500">
-                            <p>Цинк</p>
-                          </div>
-                        </div>
-                        <div class="collapse__content" data-collapse-content>
-                          <div class="collapse__inner">
-                            <div class="color-block color-block--green">
-                              <p>Исследование назначается для выявления дефицита или избытка цинка, а также для оценки
-                                его обмена.</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="flex flex--column mb-60">
-                  <p class="fz--24 fzm--20 fw--500 mb-40">Приём и метод исследования биоматериала</p>
-                  <p class=" fw--500 mb-20">Биоматериал</p>
-                  <p class="">Вен. кровь</p>
-                </div>
-                <div class="flex flex--column mb-90 mbm-95">
-                  <p class="fz--24 fzm--20 fw--500 mb-40">Когда назначают этот анализ?</p>
-                 <ul class="list list--dots">
-                   <li>оценка баланса и метаболизма витамина D и цинка;</li>
-                   <li>подозрение на дефицит/недостаточность витамина D и недостаточность цинка;</li>
-                   <li>контроль лечения препаратами витамина D и цинка;</li>
-                   <li>диагностика интоксикации витамином D и цинком.</li>
-                 </ul>
-                </div>
-                <div class="flex flex--column">
-                  <p class="fz--24 fzm--20 fw--500 mb-40">Срок исполнения</p>
-                  <p class="">1 день</p>
-                </div>
-              </li>
-              <li class="tabs__item fz--18" id="tab-2" data-tabs-list>
-                <p class="fz--24 fw--500 mb-25">Подготовка к исследованию</p>
-                <p class="mb-35">Для исследования берут кровь из вены.</p>
-                <ul class="list list--dots mb-40">
-                  <li>Кровь следует сдавать натощак, с 8 до 11 часов утра. В течение дня показатели крови могут
-                    существенно меняться, результат «утреннего» анализа — самый достоверный.
-                  </li>
-                  <li>За 24 часа до теста следует исключить алкоголь и воздержаться от интенсивных физических
-                    нагрузок.
-                  </li>
-                  <li>За 8 часов до взятия крови не следует есть, а также пить соки, молоко или другие напитки. Можно
-                    пить негазированную воду. Накануне исследования лучше поужинать лёгкой, нежирной пищей.
-                  </li>
-                  <li>За 1–2 часа до анализа желательно не курить, избегать стресса и физического напряжения (бег,
-                    быстрый подъём по лестнице).
-                  </li>
-                  <li>За 15 минут до взятия крови желательно немного отдохнуть: посидеть в лабораторном отделении,
-                    отдышаться, успокоиться.
-                  </li>
-                </ul>
-                <div class="flex flex--column mb-60">
-                  <div class="collapse collapse--clear mb-40" data-collapse data-duration="700">
-                    <div class="collapse__wrapper">
-                      <div class="collapse__item" data-collapse-item>
-                        <div class="collapse__trigger collapse--clear__trigger active" data-collapse-trigger>
-                          <span class="button-plus button-plus--small active" data-collapse-icon></span>
-                          <div class="fw--500">
-                            <p>Младенцы до 1 года</p>
-                          </div>
-                        </div>
-                        <div class="collapse__content collapse-show"
-                             style="transition: max-height 700ms ease 0s; height: 446px; max-height: 446px;"
-                             data-collapse-content>
-                          <div class="collapse__inner">
-                            <div class="color-block color-block--green">
-                              <ul class="list list--dots">
-                                <li>Основное требование к маме — сохранение полного спокойствия. Дети, особенно малыши,
-                                  очень остро чувствуют настроение матери и тоже начинают нервничать, если она боится
-                                  предстоящей процедуры. С ребенком, который уже достиг старшего дошкольного или
-                                  школьного
-                                  возраста, обсудите то, что будет происходить. Не следует пугать его, особенно если он
-                                  сдает кровь в первый раз. Можно также предупредить, что, вероятнее всего, у ребенка
-                                  могут возникнуть неприятные ощущения.
-                                </li>
-                                <li>Позаботьтесь о том, чтобы ребенок не скучал перед взятием крови. Возьмите с собой
-                                  книжку, его любимую игрушку, раскраску с фломастерами — в зависимости от возраста
-                                  ребенка. Это не только займет его время, но и не позволит сконцентрироваться на страхе
-                                  от предстоящей процедуры.
-                                </li>
-                                <li>Решите, нужно ли ваше присутствие в кабинете врача во время анализа. Безусловно, оно
-                                  понадобится, если ребенок совсем маленький, но некоторым школьникам, даже из младших
-                                  классов, присутствие родителей может только помешать и спровоцировать плач или
-                                  протест.
-                                  Ориентируйтесь на психологические особенности ребенка.
-                                </li>
-                                <li>Во время проведения процедуры взятия крови, маленьких детей нужно держать на руках.
-                                  Если ребенок чувствует тепло и защиту матери, он рефлекторно успокаивается даже в
-                                  незнакомой и пугающей обстановке.
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="collapse__wrapper">
-                      <div class="collapse__item" data-collapse-item>
-                        <div class="collapse__trigger collapse--clear__trigger" data-collapse-trigger>
-                          <span class="button-plus button-plus--small" data-collapse-icon></span>
-                          <div class="fw--500">
-                            <p>Дети до 7 лет</p>
-                          </div>
-                        </div>
-                        <div class="collapse__content" data-collapse-content>
-                          <div class="collapse__inner">
-                            <div class="color-block color-block--green">
-                              <ul class="list list--dots">
-                                <li>Основное требование к маме — сохранение полного спокойствия. Дети, особенно малыши,
-                                  очень остро чувствуют настроение матери и тоже начинают нервничать, если она боится
-                                  предстоящей процедуры. С ребенком, который уже достиг старшего дошкольного или
-                                  школьного
-                                  возраста, обсудите то, что будет происходить. Не следует пугать его, особенно если он
-                                  сдает кровь в первый раз. Можно также предупредить, что, вероятнее всего, у ребенка
-                                  могут возникнуть неприятные ощущения.
-                                </li>
-                                <li>Позаботьтесь о том, чтобы ребенок не скучал перед взятием крови. Возьмите с собой
-                                  книжку, его любимую игрушку, раскраску с фломастерами — в зависимости от возраста
-                                  ребенка. Это не только займет его время, но и не позволит сконцентрироваться на страхе
-                                  от предстоящей процедуры.
-                                </li>
-                                <li>Решите, нужно ли ваше присутствие в кабинете врача во время анализа. Безусловно, оно
-                                  понадобится, если ребенок совсем маленький, но некоторым школьникам, даже из младших
-                                  классов, присутствие родителей может только помешать и спровоцировать плач или
-                                  протест.
-                                  Ориентируйтесь на психологические особенности ребенка.
-                                </li>
-                                <li>Во время проведения процедуры взятия крови, маленьких детей нужно держать на руках.
-                                  Если ребенок чувствует тепло и защиту матери, он рефлекторно успокаивается даже в
-                                  незнакомой и пугающей обстановке.
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <p>Для контроля показателей в динамике следует сдавать анализ в одинаковых условиях: в той же
-                    лаборатории, в то же время суток. Женщинам стоит учесть фазу менструального цикла.</p>
-                </div>
-                <div class="editor editor--18">
-                  <p class="fz--20 fw--500 mb-25">Лекарства и медицинские процедуры могут повлиять на результат
-                    анализа.</p>
-                  <p>Не следует сдавать кровь сразу после физиотерапевтических процедур, инструментального обследования,
-                    рентгенологического и ультразвукового исследований, массажа. Лучше всего выполнять исследование
-                    крови до начала приёма лекарственных препаратов или через 10–14 дней после их отмены.
-                    О принимаемых в данный момент лекарствах следует предупредить медсестру, а также врача, который
-                    выполняет диагностику или назначает лечение. Исследования для оценки эффективности лечения, как
-                    правило, проводят через 1–2 недели после последнего приёма препарата.</p>
-                </div>
-              </li>
-              <li class="tabs__item" id="tab-3" data-tabs-list>
-                <div class="editor editor--18 mb-80">
-                  <p class="fz--24 fw--500 mb-25">Интерпретация результата</p>
-                  <p>Отклонения результатов анализа от референсных значений не указывают достоверно на заболевание.
-                    Чтобы подтвердить диагноз, врач может назначить пациенту дополнительные анализы и исследования.</p>
-                </div>
-                <div class="columns">
-                  <div class="columns__col--5 columns__col-tab--6 columns__col-mob--12">
-                    <a class="link-row link-row--small" href="#" download>
-                      <div class="link-row__content">
-                        <svg class="link-row__content-icon">
-                          <use xlink:href="assets/sprite/sprite.svg#icon-file"></use>
-                        </svg>
-                        <div class="link-row__text">
-                          <p>Скачать файл</p>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="fixed order-m-1 columns__col-mob--12 mbm-40">
-          <div class="fixed__inner">
-            <div class="card card--order">
-              <p class="fz--24 fw--500">2 200 ₽</p>
-              <div class="card--order__content card--order__content-line">
-                <svg class="icon icon--small">
-                  <use xlink:href="assets/sprite/sprite.svg#icon-time2"></use>
-                </svg>
-                <p>1 день</p>
-              </div>
-              <div class="card--order__content justify-content-sb mb-10 mbm-15">
-                <p>Вен. кровь</p>
-                <p>+150 ₽</p>
-              </div>
-              <button class="button button--empty width--100 centered">Записаться</button>
-            </div>
-          </div>
+  <main class="main">
+    <section class="section">
+      <div class="container">
+        <div class="breadcrumbs">
+          <a class="breadcrumbs__link" href="./">Главная</a>
+          <a class="breadcrumbs__link" href="./">Услуги</a>
+          <a class="breadcrumbs__link" href="./">Лабораторные исследования</a>
+          <a class="breadcrumbs__link" href="./">Каталог</a>
+          <span class="breadcrumbs__curr-page">Обследование щитовидной железы</span>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="section mb-100 mbm-75">
-    <div class="container">
-      <div class="form--small form-bg--gray">
-        <div class="flex flex--column mb-45 mbm-30">
-          <div class="fz--24 fzm--20 fw--500 mb-20 text-center">Запишитесь на консультацию</div>
-          <div class="fz--18 fzm--16 fw--300 text-center">Укажите свой номер телефона. Мы свяжемся с вами в ближайшее
-            время.
+    </section>
+    <section class="section mb-100 mbm-55">
+      <div class="container">
+        <h1 class="title title--page">Обследование щитовидной железы</h1>
+        <div class="columns">
+          <div class="columns__col--9 columns__col-tab--8 columns__col-mob--12 order-m-2">
+            <div class="tabs" data-tabs-container>
+              <div class="tabs__controls tabs__controls--line mb-40 mbm-35">
+                <p class="tabs__trigger tabs__trigger--desk active" data-tabs-trigger data-tabs="tab-1">Об
+                  исследовании</p>
+                <p class="tabs__trigger tabs__trigger--desk" data-tabs-trigger data-tabs="tab-2">Как подготовиться</p>
+                <p class="tabs__trigger tabs__trigger--desk" data-tabs-trigger data-tabs="tab-3">Расшифровка</p>
+              </div>
+              <ul class="tabs__list">
+                <li class="tabs__item fz--18 active" id="tab-1" data-tabs-list>
+                  <div class="editor editor--18 mb-30 mbm-40">
+                    <p>Комплексное исследование объединяет 4 анализа, обязательных для госпитализации, постановки на
+                      учет,
+                      перевода из/в лечебное учреждение, получения санитарной книжки, получения разрешения на работу в
+                      РФ
+                      и пр. Исследования позволяют обнаружить заболевания, передаваемые при медицинских процедурах и
+                      половым путем: ВИЧ, гепатиты В и С, сифилис. В случае анонимной сдачи данного обследования не
+                      требуется указывать паспортные данные (Ф. И. О, адрес постоянного места жительства,
+                      гражданство).</p>
+                  </div>
+                  <div class="color-block color-block--pink mb-40">
+                    <p>Этот анализ принимается по сокращённому графику. Это связано с тем, что биоматериал должен
+                      попасть
+                      в лабораторию в очень короткий срок. Проверьте расписание сокращённого графика приёма на странице
+                      вашего отделения.</p>
+                    <div class="icon icon--big">
+                      <svg>
+                        <use xlink:href="assets/sprite/sprite.svg#icon-micro"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="editor editor--18 mb-70 mbm-40">
+                    <p class="fw--500">Синонимы и связанные понятия</p>
+                    <a href="#">Serum zinc,</a>
+                    <a href="#">Serum zinc test,</a>
+                    <a href="#">Vitamin D,</a>
+                    <a href="#">Vitamin D3 metabolite,</a>
+                    <a href="#">Zinc blood testing,</a>
+                    <a href="#">анализ крови на витамин D,</a>
+                    <a href="#">анализ крови на цинк,</a>
+                    <a href="#">витамин D,</a>
+                    <a href="#">цинк в сыворотке крови</a>
+                  </div>
+                  <div class="flex flex--column mb-60 mbm-35">
+                    <p class="fz--24 fzm--20 fw--500 mb-20 mbm-10">Состав комплекса</p>
+                    <div class="collapse collapse--clear" data-collapse data-duration="700">
+                      <div class="collapse__wrapper">
+                        <div class="collapse__item" data-collapse-item>
+                          <div class="collapse__trigger collapse--clear__trigger active" data-collapse-trigger>
+                            <span class="button-plus button-plus--small active" data-collapse-icon></span>
+                            <div class="fw--500">
+                              <p>Витамин D суммарный (25-OH D2 и D3, общий результат)</p>
+                            </div>
+                          </div>
+                          <div class="collapse__content collapse-show" data-collapse-content>
+                            <div class="collapse__inner">
+                              <div class="color-block color-block--green">
+                                <p>Исследование показывает общий уровень витамина D и позволяет выявить его дефицит или
+                                  переизбыток, нарушения кальциевого обмена.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="collapse__wrapper">
+                        <div class="collapse__item" data-collapse-item>
+                          <div class="collapse__trigger collapse--clear__trigger" data-collapse-trigger>
+                            <span class="button-plus button-plus--small" data-collapse-icon></span>
+                            <div class="fw--500">
+                              <p>Цинк</p>
+                            </div>
+                          </div>
+                          <div class="collapse__content" data-collapse-content>
+                            <div class="collapse__inner">
+                              <div class="color-block color-block--green">
+                                <p>Исследование назначается для выявления дефицита или избытка цинка, а также для оценки
+                                  его обмена.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex flex--column mb-60">
+                    <p class="fz--24 fzm--20 fw--500 mb-40">Приём и метод исследования биоматериала</p>
+                    <p class=" fw--500 mb-20">Биоматериал</p>
+                    <p class="">Вен. кровь</p>
+                  </div>
+                  <div class="flex flex--column mb-90 mbm-95">
+                    <p class="fz--24 fzm--20 fw--500 mb-40">Когда назначают этот анализ?</p>
+                    <ul class="list list--dots">
+                      <li>оценка баланса и метаболизма витамина D и цинка;</li>
+                      <li>подозрение на дефицит/недостаточность витамина D и недостаточность цинка;</li>
+                      <li>контроль лечения препаратами витамина D и цинка;</li>
+                      <li>диагностика интоксикации витамином D и цинком.</li>
+                    </ul>
+                  </div>
+                  <div class="flex flex--column">
+                    <p class="fz--24 fzm--20 fw--500 mb-40">Срок исполнения</p>
+                    <p class="">1 день</p>
+                  </div>
+                </li>
+                <li class="tabs__item fz--18" id="tab-2" data-tabs-list>
+                  <p class="fz--24 fw--500 mb-25">Подготовка к исследованию</p>
+                  <p class="mb-35">Для исследования берут кровь из вены.</p>
+                  <ul class="list list--dots mb-40">
+                    <li>Кровь следует сдавать натощак, с 8 до 11 часов утра. В течение дня показатели крови могут
+                      существенно меняться, результат «утреннего» анализа — самый достоверный.
+                    </li>
+                    <li>За 24 часа до теста следует исключить алкоголь и воздержаться от интенсивных физических
+                      нагрузок.
+                    </li>
+                    <li>За 8 часов до взятия крови не следует есть, а также пить соки, молоко или другие напитки. Можно
+                      пить негазированную воду. Накануне исследования лучше поужинать лёгкой, нежирной пищей.
+                    </li>
+                    <li>За 1–2 часа до анализа желательно не курить, избегать стресса и физического напряжения (бег,
+                      быстрый подъём по лестнице).
+                    </li>
+                    <li>За 15 минут до взятия крови желательно немного отдохнуть: посидеть в лабораторном отделении,
+                      отдышаться, успокоиться.
+                    </li>
+                  </ul>
+                  <div class="flex flex--column mb-60">
+                    <div class="collapse collapse--clear mb-40" data-collapse data-duration="700">
+                      <div class="collapse__wrapper">
+                        <div class="collapse__item" data-collapse-item>
+                          <div class="collapse__trigger collapse--clear__trigger active" data-collapse-trigger>
+                            <span class="button-plus button-plus--small active" data-collapse-icon></span>
+                            <div class="fw--500">
+                              <p>Младенцы до 1 года</p>
+                            </div>
+                          </div>
+                          <div class="collapse__content collapse-show"
+                               style="transition: max-height 700ms ease 0s; height: 446px; max-height: 446px;"
+                               data-collapse-content>
+                            <div class="collapse__inner">
+                              <div class="color-block color-block--green">
+                                <ul class="list list--dots">
+                                  <li>Основное требование к маме — сохранение полного спокойствия. Дети, особенно
+                                    малыши,
+                                    очень остро чувствуют настроение матери и тоже начинают нервничать, если она боится
+                                    предстоящей процедуры. С ребенком, который уже достиг старшего дошкольного или
+                                    школьного
+                                    возраста, обсудите то, что будет происходить. Не следует пугать его, особенно если
+                                    он
+                                    сдает кровь в первый раз. Можно также предупредить, что, вероятнее всего, у ребенка
+                                    могут возникнуть неприятные ощущения.
+                                  </li>
+                                  <li>Позаботьтесь о том, чтобы ребенок не скучал перед взятием крови. Возьмите с собой
+                                    книжку, его любимую игрушку, раскраску с фломастерами — в зависимости от возраста
+                                    ребенка. Это не только займет его время, но и не позволит сконцентрироваться на
+                                    страхе
+                                    от предстоящей процедуры.
+                                  </li>
+                                  <li>Решите, нужно ли ваше присутствие в кабинете врача во время анализа. Безусловно,
+                                    оно
+                                    понадобится, если ребенок совсем маленький, но некоторым школьникам, даже из младших
+                                    классов, присутствие родителей может только помешать и спровоцировать плач или
+                                    протест.
+                                    Ориентируйтесь на психологические особенности ребенка.
+                                  </li>
+                                  <li>Во время проведения процедуры взятия крови, маленьких детей нужно держать на
+                                    руках.
+                                    Если ребенок чувствует тепло и защиту матери, он рефлекторно успокаивается даже в
+                                    незнакомой и пугающей обстановке.
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="collapse__wrapper">
+                        <div class="collapse__item" data-collapse-item>
+                          <div class="collapse__trigger collapse--clear__trigger" data-collapse-trigger>
+                            <span class="button-plus button-plus--small" data-collapse-icon></span>
+                            <div class="fw--500">
+                              <p>Дети до 7 лет</p>
+                            </div>
+                          </div>
+                          <div class="collapse__content" data-collapse-content>
+                            <div class="collapse__inner">
+                              <div class="color-block color-block--green">
+                                <ul class="list list--dots">
+                                  <li>Основное требование к маме — сохранение полного спокойствия. Дети, особенно
+                                    малыши,
+                                    очень остро чувствуют настроение матери и тоже начинают нервничать, если она боится
+                                    предстоящей процедуры. С ребенком, который уже достиг старшего дошкольного или
+                                    школьного
+                                    возраста, обсудите то, что будет происходить. Не следует пугать его, особенно если
+                                    он
+                                    сдает кровь в первый раз. Можно также предупредить, что, вероятнее всего, у ребенка
+                                    могут возникнуть неприятные ощущения.
+                                  </li>
+                                  <li>Позаботьтесь о том, чтобы ребенок не скучал перед взятием крови. Возьмите с собой
+                                    книжку, его любимую игрушку, раскраску с фломастерами — в зависимости от возраста
+                                    ребенка. Это не только займет его время, но и не позволит сконцентрироваться на
+                                    страхе
+                                    от предстоящей процедуры.
+                                  </li>
+                                  <li>Решите, нужно ли ваше присутствие в кабинете врача во время анализа. Безусловно,
+                                    оно
+                                    понадобится, если ребенок совсем маленький, но некоторым школьникам, даже из младших
+                                    классов, присутствие родителей может только помешать и спровоцировать плач или
+                                    протест.
+                                    Ориентируйтесь на психологические особенности ребенка.
+                                  </li>
+                                  <li>Во время проведения процедуры взятия крови, маленьких детей нужно держать на
+                                    руках.
+                                    Если ребенок чувствует тепло и защиту матери, он рефлекторно успокаивается даже в
+                                    незнакомой и пугающей обстановке.
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <p>Для контроля показателей в динамике следует сдавать анализ в одинаковых условиях: в той же
+                      лаборатории, в то же время суток. Женщинам стоит учесть фазу менструального цикла.</p>
+                  </div>
+                  <div class="editor editor--18">
+                    <p class="fz--20 fw--500 mb-25">Лекарства и медицинские процедуры могут повлиять на результат
+                      анализа.</p>
+                    <p>Не следует сдавать кровь сразу после физиотерапевтических процедур, инструментального
+                      обследования,
+                      рентгенологического и ультразвукового исследований, массажа. Лучше всего выполнять исследование
+                      крови до начала приёма лекарственных препаратов или через 10–14 дней после их отмены.
+                      О принимаемых в данный момент лекарствах следует предупредить медсестру, а также врача, который
+                      выполняет диагностику или назначает лечение. Исследования для оценки эффективности лечения, как
+                      правило, проводят через 1–2 недели после последнего приёма препарата.</p>
+                  </div>
+                </li>
+                <li class="tabs__item" id="tab-3" data-tabs-list>
+                  <div class="editor editor--18 mb-80">
+                    <p class="fz--24 fw--500 mb-25">Интерпретация результата</p>
+                    <p>Отклонения результатов анализа от референсных значений не указывают достоверно на заболевание.
+                      Чтобы подтвердить диагноз, врач может назначить пациенту дополнительные анализы и
+                      исследования.</p>
+                  </div>
+                  <div class="columns">
+                    <div class="columns__col--5 columns__col-tab--6 columns__col-mob--12">
+                      <a class="link-row link-row--small" href="#" download>
+                        <div class="link-row__content">
+                          <svg class="link-row__content-icon">
+                            <use xlink:href="assets/sprite/sprite.svg#icon-file"></use>
+                          </svg>
+                          <div class="link-row__text">
+                            <p>Скачать файл</p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="fixed order-m-1 columns__col-mob--12 mbm-40">
+            <div class="fixed__inner">
+              <div class="card card--order">
+                <p class="fz--24 fw--500">2 200 ₽</p>
+                <div class="card--order__content card--order__content-line">
+                  <svg class="icon icon--small">
+                    <use xlink:href="assets/sprite/sprite.svg#icon-time2"></use>
+                  </svg>
+                  <p>1 день</p>
+                </div>
+                <div class="card--order__content justify-content-sb mb-10 mbm-15">
+                  <p>Вен. кровь</p>
+                  <p>+150 ₽</p>
+                </div>
+                <button class="button button--empty width--100 centered">Записаться</button>
+              </div>
+            </div>
           </div>
         </div>
-        <form action="#" data-form>
-          <div class="flex flex--mob-column gap-50 gap--mob-15 align-items-center">
-            <label class="form__label">
+      </div>
+    </section>
+    <section class="section mb-100 mbm-75">
+      <div class="container">
+        <div class="form--small form-bg--gray">
+          <div class="flex flex--column mb-45 mbm-30">
+            <div class="fz--24 fzm--20 fw--500 mb-20 text-center">Запишитесь на консультацию</div>
+            <div class="fz--18 fzm--16 fw--300 text-center">Укажите свой номер телефона. Мы свяжемся с вами в ближайшее
+              время.
+            </div>
+          </div>
+          <form action="#" data-form>
+            <div class="flex flex--mob-column gap-50 gap--mob-15 align-items-center">
+              <label class="form__label">
               <span class="form__label-icon">
                  <svg>
                   <use xlink:href="assets/sprite/sprite.svg#icon-tel"></use>
                 </svg>
               </span>
-              <input class="form__input form--small__input" type="tel" placeholder="+7 ( ___ ) ___-__-__" data-tel>
-            </label>
-            <button class="button form--small__button" type="submit" data-form-button>Отправить</button>
-          </div>
-          <div class="flex">
-            <label class="checkbox checkbox--square form--small__checkbox">
-              <input type="checkbox" name="agreement" value="yes" checked>
-              <span class="form__checkbox-text">Нажимая кнопку отправить вы соглашаетесь с&nbsp;
+                <input class="form__input form--small__input" type="tel" placeholder="+7 ( ___ ) ___-__-__" data-tel>
+              </label>
+              <button class="button form--small__button" type="submit" data-form-button>Отправить</button>
+            </div>
+            <div class="flex">
+              <label class="checkbox checkbox--square form--small__checkbox">
+                <input type="checkbox" name="agreement" value="yes" checked>
+                <span class="form__checkbox-text">Нажимая кнопку отправить вы соглашаетесь с&nbsp;
                 <a href="#">Полититикой обработки персональных данных</a></span>
-            </label>
-          </div>
-        </form>
+              </label>
+            </div>
+          </form>
+        </div>
       </div>
-    </div>
-    >
-  </section>
-</main>
-<footer class="section footer">
+      >
+    </section>
+  </main>
+  <footer class="section footer">
   <div class="container">
     <div class="footer__inner">
       <div class="columns">
@@ -676,38 +692,52 @@
         <button class="button" type="button">Записаться</button>
       </div>
     </div>
-
-    <div class="modal modal--lk" id="lk">
-      <div class="lk__content">
-        <div class="lk__title">Возникли вопросы?</div>
-        <p>Заполните форму ниже, чтобы наш оператор смог дать вам обратную связь</p>
+    <div class="modal" id="cabinet">
+      <div class="modal--cabinet">
+        <div class="modal__content">
+          <div class="modal__title">Возникли вопросы?</div>
+          <p class="modal__text">Заполните форму ниже, чтобы наш оператор смог дать вам обратную связь</p>
+        </div>
+        <form class="form modal__form" action="#">
+          <label class="label modal__label">
+            <svg class="label__icon modal__label-icon">
+              <use xlink:href="assets/sprite/sprite.svg#icon-mail"></use>
+            </svg>
+            <input type="email" placeholder="E-mail">
+          </label>
+          <label class="label modal__label">
+            <svg class="label__icon modal__label-icon">
+              <use xlink:href="assets/sprite/sprite.svg#icon-tel"></use>
+            </svg>
+            <input type="tel" placeholder="+7 ( ___ ) ___-__-__" data-tel>
+          </label>
+          <label class="label modal__label modal__textarea">
+            <svg class="label__icon modal__label-icon">
+              <use xlink:href="assets/sprite/sprite.svg#icon-tooltip"></use>
+            </svg>
+            <textarea placeholder="Подробно опишите вашу проблему"></textarea>
+          </label>
+          <label class="checkbox checkbox--square">
+            <input class="form__checkbox-btn" type="checkbox" name="agreement" value="yes">
+            <span class="form__checkbox-text">Нажимая кнопку отправить вы соглашаетесь с Полититикой обработки персональных данных</span>
+          </label>
+          <button class="button button--245" type="submit">Отправить</button>
+        </form>
       </div>
-      <form class="form" action="#">
-        <label class="label">
-          <svg class="label__icon">
-            <use xlink:href="assets/sprite/sprite.svg#icon-mail"></use>
-          </svg>
-          <input type="email" placeholder="E-mail">
-        </label>
-        <label class="label">
-          <svg class="label__icon">
-            <use xlink:href="assets/sprite/sprite.svg#icon-tel"></use>
-          </svg>
-          <input type="tel" data-tel>
-        </label>
-        <label class="label">
-          <svg class="label__icon">
-            <use xlink:href="assets/sprite/sprite.svg#icon-tooltip"></use>
-          </svg>
-          <textarea placeholder="Подробно опишите вашу проблему"></textarea>
-        </label>
-        <button class="button" type="submit">Отправить</button>
-      </form>
+    </div>
+    <div class="modal" id="success">
+      <div class="modal--success">
+        <div class="modal__content">
+          <div class="modal__title">Ваша заявка принята!</div>
+          <p class="modal__text">В ближайшее время наш оператор с вами свяжется.</p>
+          <button data-fancybox-close class="button centered">Ok</button>
+        </div>
+      </div>
     </div>
   </div>
-  </div>
 </footer>
-<!-- Это временная секция, здесь ссылки на все страницы. На продакшене ее не будет -->
+
+  <!-- Это временная секция, здесь ссылки на все страницы. На продакшене ее не будет -->
 <section class="section">
   <div class="container">
     <style>
@@ -746,14 +776,22 @@
         <a href="./about-history.html" class="temp__link">3.2 О компании / История</a>
         <a href="./about-advisors.html" class="temp__link">3.4 О компании / Руководство</a>
         <a href="./docs.html" class="temp__link">4. Врачи</a>
+        <a href="./docs-detail.html" class="temp__link">4. 1. Карточка специалиста</a>
         <a href="./reviews.html" class="temp__link">6.1. Отзывы</a>
         <a href="./faq.html" class="temp__link">6.2. Вопросы и ответы</a>
         <a href="./dms.html" class="temp__link">6.4. ДМС</a>
         <a href="./programs.html" class="temp__link">6.5. Программы обслуживания</a>
         <a href="./news.html" class="temp__link">6.7. Новости</a>
         <a href="./news-detail.html" class="temp__link">6.8. Новости деталка</a>
+        <a href="./payment.html" class="temp__link">6.12. Правила оплаты</a>
+        <a href="./search.html" class="temp__link">6.13. Поиск</a>
         <a href="./tax.html" class="temp__link">Налоговый вычет</a>
         <a href="./404.html" class="temp__link">404</a>
+        <a href="./cabinet.html" class="temp__link">7.1 Личный кабинет</a>
+        <a href="./ecosystem.html" class="temp__link">7.2 Экосистема для клиентов</a>
+
+        <a data-fancybox data-src="#cabinet">modal</a>
+        <a data-fancybox data-src="#success">modal-success</a>
       </div>
       <div class="flex flex--column gap-15">
         <h1>in progress</h1>
@@ -765,7 +803,6 @@
         <a href="./about-vacancy.html" class="temp__link">3.1 О компании / Вакансии</a>
         <a href="./about-mission.html" class="temp__link">3.3 О компании / Миссия компании</a>
         <a href="./about-license.html" class="temp__link">3.5 О компании / Лицензии</a>
-        <a href="./docs-detail.html" class="temp__link">4. 1. Карточка специалиста</a>
         <a href="./clinics.html" class="temp__link">5. Клиники</a>
         <a href="./clinics-detail.html" class="temp__link">5. 1. Карточка центра</a>
         <a href="./patients.html" class="temp__link">6. Пациентам</a>
@@ -773,13 +810,10 @@
         <a href="./patients-info.html" class="temp__link">6.9. Информация для пациентов</a>
         <a href="./rules-clinic.html" class="temp__link">6.11. Правила посещения клиники</a>
         <a href="./rules-hosp.html" class="temp__link">6.11. Правила посещения стационара</a>
-        <a href="./payment.html" class="temp__link">6.12. Правила оплаты</a>
-        <a href="./search.html" class="temp__link">6.13. Поиск</a>
-        <a href="./lk.html" class="temp__link">7.1 Личный кабинет</a>
-        <a href="./ecosistem.html" class="temp__link">7.2 Экосистема для клиентов</a>
       </div>
     </div>
   </div>
 </section>
+</div>
 <script defer src="js/bundle.js"></script></body>
 </html>
