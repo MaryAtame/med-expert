@@ -1,7 +1,0 @@
-.news-detail {
-  &__title {
-    @include r(767) {
-      margin-bottom: rem(5) !important;
-    }
-  }
-}
