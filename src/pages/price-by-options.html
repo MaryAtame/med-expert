@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <%= htmlWebpackPlugin.options.head %>
+  <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body class="body">
+<div class="main-container">
+  <%= htmlWebpackPlugin.options.sectionHeader %>
+  <main class="main main--has-intro">
+    <section class="section page-intro mb-80 mbm-95">
+      <div class="container">
+        <div class="columns">
+          <div class="columns__col--6 columns__col-mob--12">
+            <div class="page-intro__content">
+              <div class="page-intro__top">
+                <section class="section">
+                  <div class="breadcrumbs">
+                    <a class="breadcrumbs__link" href="./">Главная</a>
+                    <a class="breadcrumbs__link" href="./">Услуги</a>
+                    <span class="breadcrumbs__curr-page">Цены по направлениям</span>
+                  </div>
+                </section>
+                <h1 class="title title--page title--page-intro">Цены по направлениям</h1>
+                <div class="fz--16 fw--300">
+                  <p>Приведенные цены носят информационный характер, могут изменяться без предварительного уведомления.
+                    Актуальные цены уточнйте в регистратурах клиник и контакт-центре.</p>
+                </div>
+              </div>
+              <div class="page-intro__bottom page-intro__bottom--column page-intro__bottom--column-mob">
+                <p class="fz--16 fw--300 mb-35 mbm-15">Цены действительны c 20 марта 2023г.</p>
+                <div class="flex flex--mob-column gap-70 gap--mob-10 align-items-center mob-ai-start">
+                  <a class="fz--20 fw--500" href="tel:+74012519000">8 (4012) 51-90-00</a>
+                  <a class="fw--300" href="https://yandex.ru/maps/-/CCUsvTCZWD" target="_blank\">Калининград, ул. Косм.
+                    Леонова, 8</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="columns__col--6 columns__col-mob--12">
+            <picture
+              class="page-intro__picture page-intro__picture--mirror page-intro__picture--shadow page-intro__picture--vac">
+              <img class="page-intro__img--vac" src="./assets/images/vac.png" alt="">
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section mb-60">
+      <div class="container">
+        <h2 class="title mb-15">Услуги и цены</h2>
+        <div class="editor editor--16 mb-30">
+          <p>Срок исполнения всех лабораторных анализов указывается в рабочих днях (с понедельника по пятницу), не
+            считая
+            дня сдачи анализов. На лабораторные исследования запись не нужна</p>
+        </div>
+        <div class="columns mb-40">
+          <div class="columns__col--8 columns__col-tab--12">
+            <a class="card card--bg card--mob-fit" target="_blank" href="#">
+              <div class="card--bg__content-big">
+                <div class="card__title">Приём</div>
+                <div class="editor editor--16">
+                  <p>Осмотр врача в обязательном порядке включает в себя осмотр пациента, идентифицирование внешних
+                    проявлений болезни. На основании осмотра назначаются лабораторные, функциональные, ультразвуковые,
+                    рентгенологические и другие исследования по показаниям. На основании вышеперечисленного
+                    устанавливается диагноз и назначается лечение.</p>
+                </div>
+              </div>
+              <picture class="card--bg__picture card--bg__picture-min">
+                <img src="assets/images/program.png" alt="">
+              </picture>
+            </a>
+          </div>
+          <div class="columns__col--4 columns__col-tab--12">
+            <a class="card card--bg card--mob-fit" target="_blank" href="#">
+              <div class="card--bg__content card--bg__content-no-img">
+                <div class="card__title">Консультация</div>
+                <div class="editor editor--16">
+                  <p>Беседа с врачом без осмотра, без постановки диагноза и без назначения лечения.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="columns__col--12">
+            <a class="card card--bg card--mob-fit" target="_blank" href="#">
+              <div class="card--bg__content ">
+                <div class="flex align-items-base gap-20">
+                  <div class="card__title">Забор крови</div>
+                  <span class="fz--14 fw--500 color--green mb-40">150 рублей</span>
+                </div>
+                <div class="editor editor--16">
+                  <p>Материалы на исследования принимаются во всех клиниках сети Медэксперт в будние и выходные дни.
+                    Прием
+                    материалов на исследования начинается с открытия клиники и заканчивается за час до закрытия
+                    клиники.</p>
+                </div>
+              </div>
+              <picture class="card--bg__picture">
+                <img src="assets/images/program.png" alt="">
+              </picture>
+            </a>
+          </div>
+        </div>
+        <a href="#" class="button centered-mob">Скидки</a>
+      </div>
+    </section>
+    <section class="section mb-105">
+      <div class="container">
+        <h3 class="title mb-30">Внимание!</h3>
+        <ul class="list list--mark">
+          <li>Срочное выполнение лабораторного исследования (анализа) рассчитывается по двойному тарифу.</li>
+          <li>Срочное выполнение анализа (CITO) не распространяется на Бактериологические исследования,
+            Аллергодиагностику, Т-SPOT.TB (диагностика туберкулезной инфекции), Гистологию, ПЦР диагностику,
+            Исследования
+            выделения половых органов; Акции лаборатории, Профили исследований.
+          </li>
+          <li>Забор биоматериала для срочного проведения исследования (анализа) (биоматериал кровь, моча, кал)
+            проводится
+            по адресу Космическая, 29.
+          </li>
+          <li>Забор биоматериала для срочного проведения исследования (анализа) из разделов ИММУНОГЕМАТОЛОГИЯ (группа,
+            крови, резус-фактор и тд); ЦИТОЛОГИЯ проводится по адресу ул. Леонова, 8.
+          </li>
+          <li>Прием биоматериала по CITO до 18 часов.</li>
+        </ul>
+      </div>
+    </section>
+    <section class="section mb-80">
+      <div class="container">
+        <h3 class="title mb-60 mbm-40">Услуги специалистов</h3>
+        <ul class="list list--alph mbm-30">
+          <li data-letter="А">
+            <ul>
+              <li data-fancybox data-src="#lab-price">Аллерголог</li>
+              <li data-fancybox data-src="#lab-price">Анестезиолог</li>
+            </ul>
+          </li>
+          <li data-letter="В">
+            <ul>
+              <li data-fancybox data-src="#lab-price">Вакцинация</li>
+            </ul>
+          </li>
+          <li data-letter="Г">
+            <ul>
+              <li data-fancybox data-src="#lab-price">Гематолог</li>
+              <li data-fancybox data-src="#lab-price">Гастроэнтеролог</li>
+              <li data-fancybox data-src="#lab-price">Гинеколог</li>
+            </ul>
+          </li>
+          <li data-letter="Д">
+            <ul>
+              <li data-fancybox data-src="#lab-price">Дерматовенеролог</li>
+            </ul>
+          </li>
+          <li data-letter="К">
+            <ul>
+              <li data-fancybox data-src="#lab-price">Кардиолог</li>
+            </ul>
+          </li>
+          <li data-letter="Н">
+            <ul>
+              <li data-fancybox data-src="#lab-price">Невролог</li>
+              <li data-fancybox data-src="#lab-price">Нефролог</li>
+            </ul>
+          </li>
+          <li data-letter="О">
+            <ul>
+              <li data-fancybox data-src="#lab-price">Онколог</li>
+              <li data-fancybox data-src="#lab-price">Оториноларинголог</li>
+              <li data-fancybox data-src="#lab-price">Офтальмолог</li>
+              <li data-fancybox data-src="#lab-price">Ортопед</li>
+            </ul>
+          </li>
+          <li data-letter="П">
+            <ul>
+              <li data-fancybox data-src="#lab-price">Педиатр</li>
+              <li data-fancybox data-src="#lab-price">Пластический хирург</li>
+              <li data-fancybox data-src="#lab-price">Проктолог</li>
+              <li data-fancybox data-src="#lab-price">Психотерапевт</li>
+              <li data-fancybox data-src="#lab-price">Пульмонология</li>
+            </ul>
+          </li>
+          <li data-letter="Т">
+            <ul>
+              <li data-fancybox data-src="#lab-price">Травматолог</li>
+            </ul>
+          </li>
+          <li data-letter="У">
+            <ul>
+              <li data-fancybox data-src="#lab-price">Уролог</li>
+            </ul>
+          </li>
+          <li data-letter="Ф">
+            <ul>
+              <li data-fancybox data-src="#lab-price">Флеболог</li>
+              <li data-fancybox data-src="#lab-price">Фтизиатр</li>
+            </ul>
+          </li>
+          <li data-letter="Х">
+            <ul>
+              <li data-fancybox data-src="#lab-price">Хирург</li>
+            </ul>
+          </li>
+          <li data-letter="Э">
+            <ul>
+              <li data-fancybox data-src="#lab-price">Эндокринолог</li>
+            </ul>
+          </li>
+        </ul>
+        <a class="show-more show-more--link show-more--arrow flex justify-content-center only-mobile" href="#">
+          <span>Ещё</span>
+          <svg class="show-more--arrow__icon">
+            <use xlink:href="assets/sprite/sprite.svg#icon-arrow-min"></use>
+          </svg>
+        </a>
+      </div>
+    </section>
+    <section class="section mb-110">
+      <div class="container">
+        <h3 class="title mb-60">Лабораторные исследования</h3>
+        <ul class="list list--alph mbm-30">
+          <li data-letter="А">
+            <ul>
+              <li data-fancybox data-src="#lab-price">Аллергодиагностика</li>
+            </ul>
+          </li>
+          <li data-letter="Б">
+            <ul>
+              <li data-fancybox data-src="#lab-price">Биохимические исслед.</li>
+              <li data-fancybox data-src="#lab-price">Бактериологические исслед.</li>
+            </ul>
+          </li>
+          <li data-letter="И">
+            <ul>
+              <li data-fancybox data-src="#lab-price">Исследования о COVID-19</li>
+            </ul>
+          </li>
+        </ul>
+        <a class="show-more show-more--link show-more--arrow flex justify-content-center only-mobile" href="#">
+          <span>Ещё</span>
+          <svg class="show-more--arrow__icon">
+            <use xlink:href="assets/sprite/sprite.svg#icon-arrow-min"></use>
+          </svg>
+        </a>
+      </div>
+    </section>
+  </main>
+  <%= htmlWebpackPlugin.options.sectionFooter %>
+  <%= htmlWebpackPlugin.options.temp %>
+</div>
+</body>
+</html>

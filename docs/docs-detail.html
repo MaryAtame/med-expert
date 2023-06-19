@@ -302,13 +302,13 @@
                     <svg class="rating__stars-icon">
                       <use xlink:href="assets/sprite/sprite.svg#icon-bag"></use>
                     </svg>
-                    <spsan>Врач-терапевт</spsan>
+                    <span>Врач-терапевт</span>
                   </a>
                   <a class="link-icon" href="#">
                     <svg class="rating__stars-icon">
                       <use xlink:href="assets/sprite/sprite.svg#icon-calendar"></use>
                     </svg>
-                    <spsan>Стаж 10 лет</spsan>
+                    <span>Стаж 10 лет</span>
                   </a>
                 </div>
               </div>
@@ -318,16 +318,16 @@
                     <svg class="rating__stars-icon">
                       <use xlink:href="assets/sprite/sprite.svg#icon-location"></use>
                     </svg>
-                    <spsan>Медэксперт на Лефорта</spsan>
+                    <span>Медэксперт на Лефорта</span>
                   </a>
                   <a class="link-icon" href="#">
                     <svg class="rating__stars-icon">
                       <use xlink:href="assets/sprite/sprite.svg#icon-location"></use>
                     </svg>
-                    <spsan>Медэксперт на Пражской</spsan>
+                    <span>Медэксперт на Пражской</span>
                   </a>
                 </div>
-                <div class="docs-detail__card-wrapper-btns">
+                <div class="docs-detail__card-wrapper-btns gap-30">
                   <button class="button docs-detail__btn order-m-3" type="button">Записаться на прием</button>
                   <a class="link link--underline only-mobile order-m-2" href="#docsToDocs">Врач о враче</a>
                   <button class="button button--review order-m-1" type="button">
@@ -540,9 +540,9 @@
     <section class="section mb-80 mbm-70">
       <div class="service-block">
         <div class="container">
-          <div class="service-block__header mb-40 mbm-0">
+          <div class="service-block__header service-block__header--mob-row mb-40">
             <h2 class="title">Отзывы</h2>
-            <a class="show-more show-more--link mob-hidden" href="#">
+            <a class="show-more show-more--link" href="#">
               <span>Читать все отзывы</span>
               <svg>
                 <use xlink:href="assets/sprite/sprite.svg#icon-arrow-min"></use>
@@ -565,9 +565,8 @@
                           внимательный доктор с широким кругозором знаний. Туяна Батуевна, спасибо Вам огромное за
                           помощь, за поддержку, за образец высокого звания Врач. С глубоким уважением, Евгения.</p>
                       </div>
-
                       <div class="card__bottom card__bottom--line">
-                        <address class="review-card__address">
+                        <address class="review-card__address mb-10">
                           <a target="_blank" href="https://yandex.ru/maps/-/CCUgb2hVCA">Медэксперт на Иванникова</a>
                         </address>
                         <p class="card__bottom-text--accent">Иваненко Людмила Борисовна</p>
@@ -591,7 +590,7 @@
                       </div>
 
                       <div class="card__bottom card__bottom--line">
-                        <address class="review-card__address">
+                        <address class="review-card__address mb-10">
                           <a target="_blank" href="https://yandex.ru/maps/-/CCUgb2hVCA">Медэксперт на Иванникова</a>
                         </address>
                         <p class="card__bottom-text--accent">Иваненко Людмила Борисовна</p>
@@ -615,8 +614,7 @@
               </button>
             </div>
           </div>
-          <a class="button centered mob-hidden" href="#">Оставить отзыв</a>
-          <a href="#" class="show-more show-more--dashed flex justify-content-center only-mobile">Показать еще</a>
+          <a class="button centered" href="#">Оставить отзыв</a>
         </div>
       </div>
     </section>
@@ -710,23 +708,27 @@
                   <div class="swiper-wrapper mobile-grid">
                     <div class="swiper-slide">
                       <article class="card card--review card--short">
-                        <div class="review-card__content">
+                        <div class="card--review__content">
                           <div class="card__title">Екатерина</div>
-                          <div class="review-card__text">
+                          <div class="card__text card__text--14 card__text-lc card__text-lc--6">
                             <p>Хочу выразить благодарность замечательному неврологу, профессионалу своего дела. Меня
                               давно
                               мучили головные боли, я не спала нормально. Обратилась к Туяне Батуевне. Она назначила
+                              мучили головные боли, я не спала нормально. Обратилась к Туяне Батуевне. Она назначила
                               анализы, подобрала лечение. переживала за меня, беспокоилась. Все помогло и быстро! Очень
+                              внимательный доктор с широким кругозором знаний. Туяна Батуевна, спасибо Вам огромное за
                               внимательный доктор с широким кругозором знаний. Туяна Батуевна, спасибо Вам огромное за
                               помощь, за поддержку, за образец высокого звания Врач. С глубоким уважением, Евгения.</p>
                           </div>
-                          <div class="review-card__bottom--row">
+                        </div>
+                        <div class="card__bottom card__bottom--line">
+                          <div class="flex align-items-center gap-25">
                             <picture class="userpic-circle">
                               <img src="assets/images/doc.jpg" alt="">
                             </picture>
-                            <div class="review-card__bottom-content">
-                              <p class="review-card__bottom-text--accent">Иваненко Людмила Борисовна</p>
-                              <p class="review-card__bottom-text">Нефролог</p>
+                            <div class="flex flex--column">
+                              <p class="card__bottom-text--accent">Иваненко Людмила Борисовна</p>
+                              <p class="card__bottom-text">Нефролог</p>
                             </div>
                           </div>
                         </div>
@@ -777,7 +779,7 @@
               </div>
             </li>
           </ul>
-          <a class="button centered mob-hidden" href="#">Оставить отзыв</a>
+          <a class="button centered mbm-30" href="#">Оставить отзыв</a>
           <a href="#" class="show-more show-more--dashed flex justify-content-center only-mobile">Показать еще</a>
         </div>
       </div>
@@ -849,7 +851,7 @@
                                     <span class="calendar__input">2</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
-                                    <input type="radio" value=3" name="date">
+                                    <input type="radio" value="3" name="date">
                                     <span class="calendar__input">3</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
@@ -877,7 +879,7 @@
                                     <span class="calendar__input">2</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
-                                    <input type="radio" value=3" name="date">
+                                    <input type="radio" value="3" name="date">
                                     <span class="calendar__input">3</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
@@ -1023,7 +1025,7 @@
                                     <span class="calendar__input">2</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
-                                    <input type="radio" value=3" name="date">
+                                    <input type="radio" value="3" name="date">
                                     <span class="calendar__input">3</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
@@ -1051,7 +1053,7 @@
                                     <span class="calendar__input">2</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
-                                    <input type="radio" value=3" name="date">
+                                    <input type="radio" value="3" name="date">
                                     <span class="calendar__input">3</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
@@ -1224,7 +1226,7 @@
                                     <span class="calendar__input">2</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
-                                    <input type="radio" value=3" name="date">
+                                    <input type="radio" value="3" name="date">
                                     <span class="calendar__input">3</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
@@ -1252,7 +1254,7 @@
                                     <span class="calendar__input">2</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
-                                    <input type="radio" value=3" name="date">
+                                    <input type="radio" value="3" name="date">
                                     <span class="calendar__input">3</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
@@ -1398,7 +1400,7 @@
                                     <span class="calendar__input">2</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
-                                    <input type="radio" value=3" name="date">
+                                    <input type="radio" value="3" name="date">
                                     <span class="calendar__input">3</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
@@ -1426,7 +1428,7 @@
                                     <span class="calendar__input">2</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
-                                    <input type="radio" value=3" name="date">
+                                    <input type="radio" value="3" name="date">
                                     <span class="calendar__input">3</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
@@ -1599,7 +1601,7 @@
                                     <span class="calendar__input">2</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
-                                    <input type="radio" value=3" name="date">
+                                    <input type="radio" value="3" name="date">
                                     <span class="calendar__input">3</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
@@ -1627,7 +1629,7 @@
                                     <span class="calendar__input">2</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
-                                    <input type="radio" value=3" name="date">
+                                    <input type="radio" value="3" name="date">
                                     <span class="calendar__input">3</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
@@ -1773,7 +1775,7 @@
                                     <span class="calendar__input">2</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
-                                    <input type="radio" value=3" name="date">
+                                    <input type="radio" value="3" name="date">
                                     <span class="calendar__input">3</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
@@ -1801,7 +1803,7 @@
                                     <span class="calendar__input">2</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
-                                    <input type="radio" value=3" name="date">
+                                    <input type="radio" value="3" name="date">
                                     <span class="calendar__input">3</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
@@ -1982,7 +1984,7 @@
                                     <span class="calendar__input">2</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
-                                    <input type="radio" value=3" name="date">
+                                    <input type="radio" value="3" name="date">
                                     <span class="calendar__input">3</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
@@ -2010,7 +2012,7 @@
                                     <span class="calendar__input">2</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
-                                    <input type="radio" value=3" name="date">
+                                    <input type="radio" value="3" name="date">
                                     <span class="calendar__input">3</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
@@ -2156,7 +2158,7 @@
                                     <span class="calendar__input">2</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
-                                    <input type="radio" value=3" name="date">
+                                    <input type="radio" value="3" name="date">
                                     <span class="calendar__input">3</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
@@ -2184,7 +2186,7 @@
                                     <span class="calendar__input">2</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
-                                    <input type="radio" value=3" name="date">
+                                    <input type="radio" value="3" name="date">
                                     <span class="calendar__input">3</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
@@ -2330,7 +2332,7 @@
                                     <span class="calendar__input">2</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
-                                    <input type="radio" value=3" name="date">
+                                    <input type="radio" value="3" name="date">
                                     <span class="calendar__input">3</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
@@ -2358,7 +2360,7 @@
                                     <span class="calendar__input">2</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
-                                    <input type="radio" value=3" name="date">
+                                    <input type="radio" value="3" name="date">
                                     <span class="calendar__input">3</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
@@ -2504,7 +2506,7 @@
                                     <span class="calendar__input">2</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
-                                    <input type="radio" value=3" name="date">
+                                    <input type="radio" value="3" name="date">
                                     <span class="calendar__input">3</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
@@ -2532,7 +2534,7 @@
                                     <span class="calendar__input">2</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
-                                    <input type="radio" value=3" name="date">
+                                    <input type="radio" value="3" name="date">
                                     <span class="calendar__input">3</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
@@ -2678,7 +2680,7 @@
                                     <span class="calendar__input">2</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
-                                    <input type="radio" value=3" name="date">
+                                    <input type="radio" value="3" name="date">
                                     <span class="calendar__input">3</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
@@ -2706,7 +2708,7 @@
                                     <span class="calendar__input">2</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
-                                    <input type="radio" value=3" name="date">
+                                    <input type="radio" value="3" name="date">
                                     <span class="calendar__input">3</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
@@ -2852,7 +2854,7 @@
                                     <span class="calendar__input">2</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
-                                    <input type="radio" value=3" name="date">
+                                    <input type="radio" value="3" name="date">
                                     <span class="calendar__input">3</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
@@ -2880,7 +2882,7 @@
                                     <span class="calendar__input">2</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
-                                    <input type="radio" value=3" name="date">
+                                    <input type="radio" value="3" name="date">
                                     <span class="calendar__input">3</span>
                                   </label>
                                   <label class="calendar__label calendar__day-label">
@@ -3268,17 +3270,27 @@
         <a href="./price-by-options.html" class="temp__link">2.10. Цены по направлениям </a>
         <a href="./curing.html" class="temp__link">2.11. Лечение</a>
         <a href="./labtest.html" class="temp__link">2.13. Лабораторные исследования</a>
+        <a href="./catalog.html" class="temp__link">2.13.1. Каталог исследования</a>
+        <a href="./catalog-detail.html" class="temp__link">2.13.2. Деталка исследования</a>
         <a href="./about.html" class="temp__link">3. О компании</a>
+        <a href="./about-vacancy.html" class="temp__link">3.1 О компании / Вакансии</a>
+        <a href="./about-mission.html" class="temp__link">3.3 О компании / Миссия компании</a>
         <a href="./about-history.html" class="temp__link">3.2 О компании / История</a>
         <a href="./about-advisors.html" class="temp__link">3.4 О компании / Руководство</a>
+        <a href="./about-license.html" class="temp__link">3.5 О компании / Лицензии</a>
         <a href="./docs.html" class="temp__link">4. Врачи</a>
         <a href="./docs-detail.html" class="temp__link">4. 1. Карточка специалиста</a>
+        <a href="./clinics.html" class="temp__link">5. Клиники</a>
+        <a href="./clinics-detail.html" class="temp__link">5. 1. Карточка центра</a>
         <a href="./reviews.html" class="temp__link">6.1. Отзывы</a>
         <a href="./faq.html" class="temp__link">6.2. Вопросы и ответы</a>
         <a href="./dms.html" class="temp__link">6.4. ДМС</a>
         <a href="./programs.html" class="temp__link">6.5. Программы обслуживания</a>
         <a href="./news.html" class="temp__link">6.7. Новости</a>
         <a href="./news-detail.html" class="temp__link">6.8. Новости деталка</a>
+        <a href="./patients-info.html" class="temp__link">6.9. Информация для пациентов</a>
+        <a href="./rules-clinic.html" class="temp__link">6.11. Правила посещения клиники</a>
+        <a href="./rules-hosp.html" class="temp__link">6.11. Правила посещения стационара</a>
         <a href="./payment.html" class="temp__link">6.12. Правила оплаты</a>
         <a href="./search.html" class="temp__link">6.13. Поиск</a>
         <a href="./tax.html" class="temp__link">Налоговый вычет</a>
@@ -3294,18 +3306,8 @@
         <a href="./for-kids.html" class="temp__link">2.5. Программы для детей</a>
         <a href="./rehab.html" class="temp__link">2.8. Восстановление</a>
         <a href="./curing-child.html" class="temp__link">2.12. Лечение детей</a>
-        <a href="./catalog.html" class="temp__link">2.13.1. Каталог исследования</a>
-        <a href="./catalog-detail.html" class="temp__link">2.13.2. Деталка исследования</a>
-        <a href="./about-vacancy.html" class="temp__link">3.1 О компании / Вакансии</a>
-        <a href="./about-mission.html" class="temp__link">3.3 О компании / Миссия компании</a>
-        <a href="./about-license.html" class="temp__link">3.5 О компании / Лицензии</a>
-        <a href="./clinics.html" class="temp__link">5. Клиники</a>
-        <a href="./clinics-detail.html" class="temp__link">5. 1. Карточка центра</a>
         <a href="./patients.html" class="temp__link">6. Пациентам</a>
         <a href="./data.html" class="temp__link">6.3. Обработка данных</a>
-        <a href="./patients-info.html" class="temp__link">6.9. Информация для пациентов</a>
-        <a href="./rules-clinic.html" class="temp__link">6.11. Правила посещения клиники</a>
-        <a href="./rules-hosp.html" class="temp__link">6.11. Правила посещения стационара</a>
       </div>
     </div>
   </div>

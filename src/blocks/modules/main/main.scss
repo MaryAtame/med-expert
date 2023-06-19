@@ -1,0 +1,33 @@
+.main {
+    flex-grow: 1;
+    width: 100%;
+    margin-top: rem(157);
+    //margin-top: rem(165);
+    @include r(1200) {
+        margin-top: rem(178);
+    }
+    @include r(767) {
+        margin-top: rem(20);
+    }
+    &--has-intro {
+        margin-top: rem(136);
+        @include r(1200) {
+            margin-top: rem(146);
+        }
+        @include r(767) {
+            margin-top: rem(-7);
+        }
+    }
+    &--index {
+        margin-top: rem(165);
+        @include r(767) {
+            margin-top: rem(198);
+        }
+    }
+    &--no-header {
+        margin-top: 0;
+    }
+    &--lk {
+        height: 100vh;
+    }
+}

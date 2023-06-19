@@ -1,0 +1,38 @@
+.not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: rem(565);
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  @include r(767) {
+    min-height: auto;
+  }
+  &__title {
+    font-size: calc(156px + 164 * ((100vw - 320px) / (1920 - 320)));
+    font-weight: 700;
+    line-height: 1;
+    @include r(767) {
+      margin-bottom: rem(45);
+    }
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+  &__picture {
+    width: 100%;
+    max-width: rem(832);
+    margin: 0 auto rem(20);
+    @include r(767) {
+
+    }
+    img {
+
+    }
+  }
+}

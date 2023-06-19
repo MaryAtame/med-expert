@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <%= htmlWebpackPlugin.options.head %>
+  <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body class="body">
+<div class="main-container">
+  <main class="main cabinet">
+    <div class="container">
+      <div class="columns">
+        <div class="columns__col--6 columns__col-mob--12">
+          <div class="cabinet__wrapper">
+            <a class="cabinet__logo" href="./">
+              <img src="../assets/images/logo-big.svg" alt="">
+            </a>
+            <div class="cabinet__form-wrapper">
+              <h1 class="cabinet__title mb-15 mbm-10">Войти в личный кабинет</h1>
+              <p class="cabinet__text mb-45">Пожалуйста, укажите полученные Вами в регистратуре данные, чтобы зайти в
+                личный кабинет.</p>
+              <form class="form form--cabinet" action="#">
+                <label class="form--cabinet__label">
+                  <svg>
+                    <use xlink:href="assets/sprite/sprite.svg#icon-lk"></use>
+                  </svg>
+                  <input type="text" placeholder="Логин">
+                </label>
+                <label class="form--cabinet__label">
+                  <svg>
+                    <use xlink:href="assets/sprite/sprite.svg#icon-lock"></use>
+                  </svg>
+                  <input type="password" placeholder="Пароль">
+                </label>
+                <div class="form--cabinet__bottom">
+                  <button class="button order-m-2" type="submit">Войти</button>
+                  <a class="button button--empty order-m-1" href="#">Назад</a>
+                </div>
+              </form>
+            </div>
+            <div class="cabinet__bottom">
+              <a href="#">Пользовательское соглашение</a>
+              <button type="button" data-fancybox data-src="#cabinet">Написать в поддержку</button>
+            </div>
+          </div>
+        </div>
+        <div class="columns__col--6 mob-hidden">
+          <picture class="cabinet__picture">
+            <img src="../assets/images/lk-bg.png" alt="">
+          </picture>
+        </div>
+      </div>
+    </div>
+    <div hidden>
+      <div class="modal lab-price" id="lab-price">
+        <div class="lab-price__content">
+          <div class="lab-price__title">Гематолог</div>
+          <ul class="lab-price__list">
+            <li>В01.005.001 Прием (осмотр) врача-гематолога первичный — <b>1600 руб.</b></li>
+            <li>В01.005.002 Прием (осмотр) врача-гематолога повторный — <b>1400 руб.</b></li>
+            <li>А11.05.002 Получение цитологического препарата костного мозга путем пункции, без анестезии — <b>2100
+              руб.</b></li>
+            <li>А11.05.002 Получение цитологического препарата костного мозга путем пункции, с анестезией — <b>2300
+              руб.</b></li>
+          </ul>
+          <button class="button" type="button">Записаться</button>
+        </div>
+      </div>
+      <div class="modal" id="cabinet">
+        <div class="modal--cabinet">
+          <div class="modal__content">
+            <div class="modal__title">Возникли вопросы?</div>
+            <p class="modal__text">Заполните форму ниже, чтобы наш оператор смог дать вам обратную связь</p>
+          </div>
+          <form class="form modal__form" action="#">
+            <label class="label modal__label">
+              <svg class="label__icon modal__label-icon">
+                <use xlink:href="assets/sprite/sprite.svg#icon-mail"></use>
+              </svg>
+              <input type="email" placeholder="E-mail">
+            </label>
+            <label class="label modal__label">
+              <svg class="label__icon modal__label-icon">
+                <use xlink:href="assets/sprite/sprite.svg#icon-tel"></use>
+              </svg>
+              <input type="tel" placeholder="+7 ( ___ ) ___-__-__" data-tel>
+            </label>
+            <label class="label modal__label modal__textarea">
+              <svg class="label__icon modal__label-icon">
+                <use xlink:href="assets/sprite/sprite.svg#icon-tooltip"></use>
+              </svg>
+              <textarea placeholder="Подробно опишите вашу проблему"></textarea>
+            </label>
+            <label class="checkbox checkbox--square">
+              <input class="form__checkbox-btn" type="checkbox" name="agreement" value="yes">
+              <span class="form__checkbox-text">Нажимая кнопку отправить вы соглашаетесь с Полититикой обработки персональных данных</span>
+            </label>
+            <button class="button button--245" type="submit">Отправить</button>
+          </form>
+        </div>
+      </div>
+      <div class="modal" id="success">
+        <div class="modal--success">
+          <div class="modal__content">
+            <div class="modal__title">Ваша заявка принята!</div>
+            <p class="modal__text">В ближайшее время наш оператор с вами свяжется.</p>
+            <button data-fancybox-close class="button centered">Ok</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+</body>
+</html>

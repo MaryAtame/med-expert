@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <%= htmlWebpackPlugin.options.head %>
+  <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body class="body">
+<div class="main-container">
+  <%= htmlWebpackPlugin.options.sectionHeader %>
+  <main class="main main--has-intro">
+    <section class="section page-intro page-intro--big mb-45">
+      <div class="container">
+        <div class="columns">
+          <div class="columns__col--6 columns__col-mob--12">
+            <div class="page-intro__content">
+              <div class="page-intro__top">
+                <section class="section">
+                  <div class="breadcrumbs">
+                    <a class="breadcrumbs__link" href="./">Главная</a>
+                    <a class="breadcrumbs__link" href="./">Клиники</a>
+                    <span class="breadcrumbs__curr-page">Диагностическая лаборатория</span>
+                  </div>
+                </section>
+                <h1 class="title title--page title--page-intro">Диагностическая лаборатория</h1>
+                <div class="page-intro__text page-intro__text--clinics">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, enim perspiciatis quas quod
+                    repellendus totam. A commodi dolor eligendi et exercitationem, explicabo hic odio pariatur
+                    perferendis
+                    possimus provident temporibus ullam!</p>
+                </div>
+              </div>
+              <div class="page-intro__bottom page-intro__bottom--column page-intro__bottom--column-mob">
+                <div class="flex flex--column mb-35">
+                  <p>График работы:</p>
+                  <p>Будни, Сб, Вс: c 8:00 до 21:00</p>
+                </div>
+                <div class="flex flex--mob-column">
+                  <a class="page-intro__bottom-tel" href="tel:+74012519000">8 (4012) 51-90-00</a>
+                  <a class="page-intro__bottom-addr" href="https://yandex.ru/maps/-/CCUomWdDoD" target="_blank">
+                    <span>Калининград, ул. Космическая, 29</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="columns__col--6 columns__col-mob--12">
+            <picture class="page-intro__picture page-intro__picture--decor-round">
+              <img src="./assets/images/about-pic.svg" alt="">
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section mb-95">
+      <div class="container">
+        <nav class="nav mb-40 mbm-15">
+          <a class="nav__link active" href="#about">О клинике</a>
+          <a class="nav__link" href="#services">Услуги</a>
+          <a class="nav__link" href="#doctors">Врачи</a>
+          <a class="nav__link" href="#review">Отзывы</a>
+        </nav>
+        <div class="service-block mb-100 mbm-80" id="about">
+          <div class="service-block__part">
+            <h2 class="title mb-30">Информация</h2>
+            <div class="flex fz--16 fw--300 mb-20">
+              <p>Заместитель главного врача по клинико-диагностической лаборатории -
+                <a class="color--green fw--500" href="#">Грибло Оксана Ромуальдовна</a></p>
+            </div>
+            <div class="columns mb-50 mbm-25">
+              <div class="columns__col--4 columns__col-mob--12">
+                <a class="card card--gray" href="#">
+                  <svg class="card--gray__icon">
+                    <use xlink:href="assets/sprite/sprite.svg#icon-file"></use>
+                  </svg>
+                  <p class="card--gray__text">Сертификаты лаборатории</p>
+                </a>
+              </div>
+              <div class="columns__col--4 columns__col-mob--12">
+                <a class="card card--gray" href="#">
+                  <svg class="card--gray__icon">
+                    <use xlink:href="assets/sprite/sprite.svg#icon-file"></use>
+                  </svg>
+                  <p class="card--gray__text">Подготовка к лабораторным исследованиям</p>
+                </a>
+              </div>
+              <div class="columns__col--4 columns__col-mob--12">
+                <a class="card card--gray" href="#">
+                  <svg class="card--gray__icon">
+                    <use xlink:href="assets/sprite/sprite.svg#icon-file"></use>
+                  </svg>
+                  <p class="card--gray__text">Прейскурант</p>
+                </a>
+              </div>
+            </div>
+            <div class="columns mb-30">
+              <div class="columns__col--6 columns__col-mob--12 order-m-2">
+                <div class="video-content">
+                  <iframe src="https://www.youtube.com/embed/DkaUsBwe0fo"
+                          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen
+                          frameborder="0"></iframe>
+                </div>
+              </div>
+              <div class="columns__col--6 columns__col-mob--12 order-m-1">
+                <div class="editor editor--18 mb-40">
+                  <p>Материалы на исследования принимаются во всех клиниках сети Медэксперт в будние и выходные дни.
+                    Прием
+                    материалов на исследования начинается с открытия клиники и заканчивается за час до закрытия клиники.
+                  </p>
+                  <p>Срок выполнения анализа действителен с момента поступления материала в лабораторию.</p>
+                </div>
+                <div class="flex flex--column">
+                  <p class="fw--500 fz--18 mb-15">Уточняйте режим работы клиник на сайте или по телефону</p>
+                  <a class="link link--green-dot" href="tel:+74012519000">8 (4012) 51-90-00</a>
+                </div>
+              </div>
+            </div>
+            <div class="editor editor--18 mb-40">
+              <p class="color--green">Внимание! Срочное выполнение лабораторного исследования (анализа) рассчитывается
+                по
+                двойному тарифу. Срочное выполнение анализа (CITO) не распространяется на Бактериологические
+                исследования,
+                Аллергодиагностику, Т-SPOT.TB (диагностика туберкулезной инфекции), Гистологию, ПЦР диагностику,
+                Исследования выделения половых органов; Акции лаборатории, Профили исследований.Забор биоматериала для
+                срочного проведения исследования (анализа) (биоматериал кровь, моча, кал) проводится по адресу
+                Космическая, 29.Забор биоматериала для срочного проведения исследования (анализа) из разделов
+                ИММУНОГЕМАТОЛОГИЯ (группа, крови, резус-фактор и тд); ЦИТОЛОГИЯ проводится по адресу ул. Леонова,
+                8.Прием
+                биоматериала по CITO до 18 часов.</p>
+              <p>За 20 лет работы сети семейных клиник «Медэксперт» Клинико-диагностическая лаборатория развилась в
+                мощный
+                диагностический комплекс. Основополагающий принцип работы лаборатории - используя лучшие методики,
+                технологии, материалы и оборудование, проводить диагностику на уровне мировых стандартов.Качество
+                лабораторных исследований КДЛ «Медэксперт» гарантируется регулярным проведением федеральных и
+                международных программ контроля качества: ФСВОК (Федеральная Система Внешней Оценки Качества клинических
+                лабораторных исследований (Россия)); RIQAS – Randox (Великобритания); EQAS – BIO-Rad (США).И специалисту
+                медику и обычному человеку, обратившемуся за медицинской помощью, известно, что лабораторное
+                обследование
+                пациента имеет большое значение в постановке диагноза и контроле лечения. При этом очень важны как
+                точность результата, сроки выполнения, стоимость, так и возможность комплексно выполнить все
+                исследования
+                в одной лаборатории. Клинико-диагностическая лаборатория сети семейных клиник «Медэксперт» соответствует
+                требованиям и условиям настоящего времени и предлагает современнейшую лабораторную диагностику.
+                Лаборатория оснащена новым высокотехнологичным оборудованием, что обеспечивает высокую
+                производительность
+                и качество результатов.</p>
+            </div>
+            <div class="accent-block mb-40">
+              <p class="fw--500 fz--32 fzm--20">Заголовок</p>
+              <p class="fw--300 fz--16">Профессионалы своего дела, врачи-лаборанты КДЛ «Медэксперт», следят за
+                выполнением исследований и
+                готовы дать консультацию по полученному результату.</p>
+            </div>
+            <div class="editor editor--18">
+              <p>Для выполнения <strong>общего анализа крови, подсчета лейкоцитарной формулы</strong> используются
+                анализаторы производства
+                Sysmex Corporation (Япония). используемые нами анализаторы SYSMEX принадлежат к X и N серии, это серии
+                современных высокоточных гематологических анализаторов, объединенных общими технологиями. Новый
+                гематологический анализатор основан на революционной технологии проточной цитометрии, гарантирующей
+                точные
+                результаты и возможность четкого разделения нормальных и патологических образцов. Вызывающие сомнения
+                пробы автоматически передаются на расширенный анализ.</p>
+              <p><strong>Биохимические исследования крови и мочи,</strong> показатели которых позволяют врачу
+                диагностировать состояние
+                внутренних органов и систем организма человека, выполняются на биохимических анализаторах Cobas
+                Integra400
+                (Япония) и ILab Taurus (Италия) Высокотехнологичные биохимические анализаторы, позволяющие работать 24
+                часа в сутки с производительностью до 875 тестов в час, обеспечивают широкий спектр биохимических
+                исследований с использованием зарубежных и российских реагентов. На данный момент лаборатория выполняет
+                более 60 различных видов биохимических исследований.</p>
+            </div>
+          </div>
+        </div>
+        <div class="service-block mb-80" id="services">
+          <h3 class="title mb-40">Предоставляемые услуги</h3>
+          <div class="columns">
+            <div class="columns__col--3 columns__col-tab--6">
+              <a class="card card-lab" target="_blank" href="#">
+                <div class="card-lab__content">
+                  <div class="card__title">Название направления</div>
+                </div>
+                <picture class="card-lab__picture card-lab__picture-min">
+                  <img src="assets/images/card-img-1.png" alt="">
+                </picture>
+              </a>
+            </div>
+            <div class="columns__col--3 columns__col-tab--6">
+              <a class="card card-lab" target="_blank" href="#">
+                <div class="card-lab__content">
+                  <div class="card__title">Название направления</div>
+
+                </div>
+                <picture class="card-lab__picture card-lab__picture-min">
+                  <img src="assets/images/card-img-2.png" alt="">
+                </picture>
+              </a>
+            </div>
+            <div class="columns__col--6 columns__col-tab--12">
+              <div class="slider" data-slider data-slider-slides="1" data-slider-slides-tab="1"
+                   data-slider-slides-mob="1">
+                <div class="swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <a class="card card-lab" target="_blank" href="#">
+                        <div class="card-lab__content">
+                          <div class="card__title">Популярные комплексы</div>
+                        </div>
+                        <picture class="card-lab__picture card-lab__picture-min">
+                          <img src="assets/images/card-img-4.png" alt="">
+                        </picture>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a class="card card-lab" target="_blank" href="#">
+                        <div class="card-lab__content">
+                          <div class="card__title">Популярные комплексы 1</div>
+                        </div>
+                        <picture class="card-lab__picture card-lab__picture-min">
+                          <img src="assets/images/program.png" alt="">
+                        </picture>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="slider__pagination" data-slider-pagination></div>
+                </div>
+              </div>
+            </div>
+            <div class="columns__col--6 columns__col-tab--12">
+              <div class="slider" data-slider data-slider-slides="1" data-slider-slides-tab="1"
+                   data-slider-slides-mob="1">
+                <div class="swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <a class="card card-lab" target="_blank" href="#">
+                        <div class="card-lab__content">
+                          <div class="card__title">Популярные анализы</div>
+                        </div>
+                        <picture class="card-lab__picture card-lab__picture-min">
+                          <img src="assets/images/card-img-3.png" alt="">
+                        </picture>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a class="card card-lab" target="_blank" href="#">
+                        <div class="card-lab__content">
+                          <div class="card__title">Популярные анализы 1</div>
+                        </div>
+                        <picture class="card-lab__picture card-lab__picture-min">
+                          <img src="assets/images/program.png" alt="">
+                        </picture>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="slider__pagination" data-slider-pagination></div>
+                </div>
+              </div>
+            </div>
+            <div class="columns__col--3 columns__col-tab--6">
+              <a class="card card-lab" target="_blank" href="#">
+                <div class="card-lab__content">
+                  <div class="card__title">Название направления</div>
+                </div>
+                <picture class="card-lab__picture card-lab__picture-min">
+                  <img src="assets/images/card-img-5.png" alt="">
+                </picture>
+              </a>
+            </div>
+            <div class="columns__col--3 columns__col-tab--6">
+              <a class="card card-lab" target="_blank" href="#">
+                <div class="card-lab__content">
+                  <div class="card__title">Название направления</div>
+                </div>
+                <picture class="card-lab__picture card-lab__picture-min">
+                  <img src="assets/images/card-img-6.png" alt="">
+                </picture>
+              </a>
+            </div>
+            <div class="columns__col--3 columns__col-tab--6">
+              <a class="card card-lab" target="_blank" href="#">
+                <div class="card-lab__content">
+                  <div class="card__title">Анализы для мужчин</div>
+                </div>
+                <picture class="card-lab__picture card-lab__picture-min">
+                  <img src="assets/images/card-men.png" alt="">
+                </picture>
+              </a>
+            </div>
+            <div class="columns__col--3 columns__col-tab--6">
+              <a class="card card-lab" target="_blank" href="#">
+                <div class="card-lab__content">
+                  <div class="card__title">Анализы для женщин</div>
+                </div>
+                <picture class="card-lab__picture card-lab__picture-min">
+                  <img src="assets/images/card-women.png" alt="">
+                </picture>
+              </a>
+            </div>
+            <div class="columns__col--6 columns__col-tab--12">
+              <div class="slider" data-slider data-slider-slides="1" data-slider-slides-tab="1"
+                   data-slider-slides-mob="1">
+                <div class="swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <a class="card card-lab" target="_blank" href="#">
+                        <div class="card-lab__content">
+                          <div class="card__title">Анализы для детей</div>
+                        </div>
+                        <picture class="card-lab__picture card-lab__picture-min">
+                          <img src="assets/images/card-kid.png" alt="">
+                        </picture>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a class="card card-lab" target="_blank" href="#">
+                        <div class="card-lab__content">
+                          <div class="card__title">Анализы для детей 1</div>
+                        </div>
+                        <picture class="card-lab__picture card-lab__picture-min">
+                          <img src="assets/images/program.png" alt="">
+                        </picture>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="slider__pagination" data-slider-pagination></div>
+                </div>
+              </div>
+            </div>
+            <div class="columns__col--12 mt-25">
+              <a class="show-more show-more--dashed flex justify-content-center" href="#">Показать все</a>
+            </div>
+          </div>
+        </div>
+        <div class="service-block mb-80" id="doctors">
+          <h2 class="title mb-40 mbm-25">Врачи</h2>
+          <div class="slider slider--about" data-slider data-slider-slides="4">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a class="card card--md" href="#">
+                    <picture class="card__picture">
+                      <img src="assets/images/doc.jpg" alt="">
+                    </picture>
+                    <div class="card__content">
+                      <div class="card__title">
+                        <p>Львович</p>
+                        <p>Инна Александровна</p>
+                      </div>
+                      <div class="card__text">
+                        <p>Нефролог</p>
+                      </div>
+                      <div class="card__text-accent">
+                        <p>Стаж 15 лет</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a class="card card--md" href="#">
+                    <picture class="card__picture">
+                      <img src="assets/images/doc-2.jpg" alt="">
+                    </picture>
+                    <div class="card__content">
+                      <div class="card__title">
+                        <p>Львович</p>
+                        <p>Инна Александровна</p>
+                      </div>
+                      <div class="card__text">
+                        <p>Нефролог</p>
+                      </div>
+                      <div class="card__text-accent">
+                        <p>Стаж 15 лет</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a class="card card--md" href="#">
+                    <picture class="card__picture">
+                      <img src="assets/images/doc.jpg" alt="">
+                    </picture>
+                    <div class="card__content">
+                      <div class="card__title">
+                        <p>Львович</p>
+                        <p>Инна Александровна</p>
+                      </div>
+                      <div class="card__text">
+                        <p>Нефролог</p>
+                      </div>
+                      <div class="card__text-accent">
+                        <p>Стаж 15 лет</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a class="card card--md" href="#">
+                    <picture class="card__picture">
+                      <img src="assets/images/doc.jpg" alt="">
+                    </picture>
+                    <div class="card__content">
+                      <div class="card__title">
+                        <p>Львович</p>
+                        <p>Инна Александровна</p>
+                      </div>
+                      <div class="card__text">
+                        <p>Нефролог</p>
+                      </div>
+                      <div class="card__text-accent">
+                        <p>Стаж 15 лет</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="slider__controls">
+              <button class="slider__button slider__button--prev" type="button" data-slider-prev>
+                <svg>
+                  <use xlink:href="assets/sprite/sprite.svg#icon-arrow"></use>
+                </svg>
+              </button>
+              <button class="slider__button slider__button--next" type="button" data-slider-next>
+                <svg>
+                  <use xlink:href="assets/sprite/sprite.svg#icon-arrow"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="service-block mb-80" id="review">
+          <div class="service-block__header">
+            <h2 class="title">Отзывы</h2>
+            <a class="show-more show-more--link mob-hidden" href="#">
+              <span>Читать все отзывы</span>
+              <svg>
+                <use xlink:href="assets/sprite/sprite.svg#icon-arrow-min"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="slider slider--review mb-50" data-slider data-slider-slides="3">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <article class="card card--review">
+                    <div class="card__content card--no-padding">
+                      <div class="card__title">Евгения</div>
+                      <div class="card__text card__text--14 card__text-lc card__text-lc--11">
+                        <p>Хочу выразить благодарность замечательному неврологу, профессионалу своего дела. Меня давно
+                          мучили головные боли, я не спала нормально. Обратилась к Туяне Батуевне. Она назначила
+                          мучили головные боли, я не спала нормально. Обратилась к Туяне Батуевне. Она назначила
+                          анализы, подобрала лечение. переживала за меня, беспокоилась. Все помогло и быстро! Очень
+                          внимательный доктор с широким кругозором знаний. Туяна Батуевна, спасибо Вам огромное за
+                          внимательный доктор с широким кругозором знаний. Туяна Батуевна, спасибо Вам огромное за
+                          помощь, за поддержку, за образец высокого звания Врач. С глубоким уважением, Евгения.</p>
+                      </div>
+                      <div class="card__bottom card__bottom--line">
+                        <address class="review-card__address mb-10">
+                          <a target="_blank" href="https://yandex.ru/maps/-/CCUgb2hVCA">Медэксперт на Иванникова</a>
+                        </address>
+                        <p class="card__bottom-text--accent">Иваненко Людмила Борисовна</p>
+                        <p class="card__bottom-text">Нефролог</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="swiper-slide">
+                  <article class="card card--review">
+                    <div class="card__content card--no-padding">
+                      <div class="card__title">Евгения</div>
+                      <div class="card__text card__text--14 card__text-lc card__text-lc--11">
+                        <p>Хочу выразить благодарность замечательному неврологу, профессионалу своего дела. Меня давно
+                          мучили головные боли, я не спала нормально. Обратилась к Туяне Батуевне. Она назначила
+                          мучили головные боли, я не спала нормально. Обратилась к Туяне Батуевне. Она назначила
+                          анализы, подобрала лечение. переживала за меня, беспокоилась. Все помогло и быстро! Очень
+                          внимательный доктор с широким кругозором знаний. Туяна Батуевна, спасибо Вам огромное за
+                          внимательный доктор с широким кругозором знаний. Туяна Батуевна, спасибо Вам огромное за
+                          помощь, за поддержку, за образец высокого звания Врач. С глубоким уважением, Евгения.</p>
+                      </div>
+                      <div class="card__bottom card__bottom--line">
+                        <address class="review-card__address mb-10">
+                          <a target="_blank" href="https://yandex.ru/maps/-/CCUgb2hVCA">Медэксперт на Иванникова</a>
+                        </address>
+                        <p class="card__bottom-text--accent">Иваненко Людмила Борисовна</p>
+                        <p class="card__bottom-text">Нефролог</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="swiper-slide">
+                  <article class="card card--review">
+                    <div class="card__content card--no-padding">
+                      <div class="card__title">Евгения</div>
+                      <div class="card__text card__text--14 card__text-lc card__text-lc--11">
+                        <p>Хочу выразить благодарность замечательному неврологу, профессионалу своего дела. Меня давно
+                          мучили головные боли, я не спала нормально. Обратилась к Туяне Батуевне. Она назначила
+                          мучили головные боли, я не спала нормально. Обратилась к Туяне Батуевне. Она назначила
+                          анализы, подобрала лечение. переживала за меня, беспокоилась. Все помогло и быстро! Очень
+                          внимательный доктор с широким кругозором знаний. Туяна Батуевна, спасибо Вам огромное за
+                          внимательный доктор с широким кругозором знаний. Туяна Батуевна, спасибо Вам огромное за
+                          помощь, за поддержку, за образец высокого звания Врач. С глубоким уважением, Евгения.</p>
+                      </div>
+                      <div class="card__bottom card__bottom--line">
+                        <address class="review-card__address mb-10">
+                          <a target="_blank" href="https://yandex.ru/maps/-/CCUgb2hVCA">Медэксперт на Иванникова</a>
+                        </address>
+                        <p class="card__bottom-text--accent">Иваненко Людмила Борисовна</p>
+                        <p class="card__bottom-text">Нефролог</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="swiper-slide">
+                  <article class="card card--review">
+                    <div class="card__content card--no-padding">
+                      <div class="card__title">Евгения</div>
+                      <div class="card__text card__text--14 card__text-lc card__text-lc--11">
+                        <p>Хочу выразить благодарность замечательному неврологу, профессионалу своего дела. Меня давно
+                          мучили головные боли, я не спала нормально. Обратилась к Туяне Батуевне. Она назначила
+                          мучили головные боли, я не спала нормально. Обратилась к Туяне Батуевне. Она назначила
+                          анализы, подобрала лечение. переживала за меня, беспокоилась. Все помогло и быстро! Очень
+                          внимательный доктор с широким кругозором знаний. Туяна Батуевна, спасибо Вам огромное за
+                          внимательный доктор с широким кругозором знаний. Туяна Батуевна, спасибо Вам огромное за
+                          помощь, за поддержку, за образец высокого звания Врач. С глубоким уважением, Евгения.</p>
+                      </div>
+                      <div class="card__bottom card__bottom--line">
+                        <address class="review-card__address mb-10">
+                          <a target="_blank" href="https://yandex.ru/maps/-/CCUgb2hVCA">Медэксперт на Иванникова</a>
+                        </address>
+                        <p class="card__bottom-text--accent">Иваненко Людмила Борисовна</p>
+                        <p class="card__bottom-text">Нефролог</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+            <div class="slider__controls">
+              <button class="slider__button slider__button--prev" type="button" data-slider-prev>
+                <svg>
+                  <use xlink:href="assets/sprite/sprite.svg#icon-arrow"></use>
+                </svg>
+              </button>
+              <button class="slider__button slider__button--next" type="button" data-slider-next>
+                <svg>
+                  <use xlink:href="assets/sprite/sprite.svg#icon-arrow"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <a class="button centered" href="#">Оставить отзыв</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <%= htmlWebpackPlugin.options.sectionFooter %>
+  <%= htmlWebpackPlugin.options.temp %>
+</div>
+</body>
+</html>
