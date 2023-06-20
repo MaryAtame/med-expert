@@ -2791,7 +2791,8 @@ meter {
 }
 @media only screen and (max-width: 767px) {
   .card__picture {
-    height: 11.0625rem;
+    height: 55%;
+    max-height: 13.25rem;
   }
 }
 .card__picture img {
@@ -2822,8 +2823,8 @@ meter {
 }
 @media only screen and (max-width: 767px) {
   .card__content {
+    height: 45%;
     font-size: 1rem;
-    margin-bottom: 2.1875rem;
   }
 }
 .card__content--50 {
@@ -3679,7 +3680,6 @@ meter {
   position: relative;
   z-index: 10;
   overflow: hidden;
-  word-break: break-word;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 5;
@@ -5181,7 +5181,6 @@ meter {
           align-items: stretch;
   width: 100%;
   min-width: 22.5rem;
-  overflow-x: hidden;
   min-height: 100%;
 }
 
@@ -8030,6 +8029,7 @@ meter {
   margin-right: 0.8125rem;
 }
 .link--underline {
+  word-wrap: break-word;
   text-decoration: underline;
   text-underline-offset: 3px;
 }
@@ -10927,20 +10927,16 @@ button {
   height: 100%;
 }
 
-.fixed {
+.sticky {
+  height: 100%;
   width: 100%;
-  overflow: hidden;
+  position: relative;
 }
-.fixed__inner {
+.sticky__inner {
   position: -webkit-sticky;
   position: sticky;
   width: 100%;
-  top: 0;
-}
-@media only screen and (max-width: 767px) {
-  .fixed__inner {
-    position: relative;
-  }
+  top: 9.0625rem;
 }
 /*!**************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js!./node_modules/@fancyapps/ui/dist/fancybox/fancybox.css ***!
