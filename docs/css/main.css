@@ -1416,11 +1416,9 @@ meter {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 2.8125rem;
 }
 @media only screen and (max-width: 767px) {
   .service-block__header {
-    margin-bottom: 2.6875rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -1431,9 +1429,6 @@ meter {
         -ms-flex-align: start;
             align-items: flex-start;
   }
-}
-.service-block__header .title {
-  margin-bottom: 0;
 }
 @media only screen and (max-width: 767px) {
   .service-block__header--mob-row {
