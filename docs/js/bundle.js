@@ -1358,8 +1358,16 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-_fancyapps_ui__WEBPACK_IMPORTED_MODULE_0__.Fancybox.bind("[data-fancybox]", {
 
+document.addEventListener("DOMContentLoaded", () => {
+  _fancyapps_ui__WEBPACK_IMPORTED_MODULE_0__.Fancybox.bind("[data-fancybox]", {});
+
+  const modalClose = document.querySelectorAll("[data-modal-close]");
+  modalClose.forEach((item) => {
+    item.addEventListener("click", () => {
+      _fancyapps_ui__WEBPACK_IMPORTED_MODULE_0__.Fancybox.close();
+    });
+  });
 });
 
 /***/ }),
