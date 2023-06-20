@@ -5107,10 +5107,11 @@ meter {
 }
 
 .main {
- -webkit-box-flex: 1;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-    width: 100%;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  width: 100%;
   margin-top: 9.8125rem;
 }
 @media only screen and (max-width: 1200px) {
@@ -5141,7 +5142,7 @@ meter {
 }
 @media only screen and (max-width: 767px) {
   .main--index {
-    margin-top: 12.375rem;
+    margin-top: 0;
   }
 }
 .main--no-header {
@@ -5166,7 +5167,8 @@ meter {
       -ms-flex-align: stretch;
           align-items: stretch;
   width: 100%;
-  min-width: 23.4375rem;
+  min-width: 22.5rem;
+  max-width: 99vw;
   overflow-x: hidden;
   min-height: 100%;
 }
