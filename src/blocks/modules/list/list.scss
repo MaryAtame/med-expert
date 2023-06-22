@@ -3,12 +3,12 @@
 
   &--dots li:before {
     content: '\B7';
-    position: absolute;
-    left: rem(10);
+    position: relative;
+    left: rem(-10);
   }
 
   &--dots li {
-      padding-left: rem(25);
+      //padding-left: rem(25);
   }
 
   &--line li:before {

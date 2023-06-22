@@ -1,5 +1,5 @@
 .main {
-    flex-grow: 1;
+    flex: 1 1 auto;
     width: 100%;
     margin-top: rem(157);
     //margin-top: rem(165);
@@ -21,7 +21,7 @@
     &--index {
         margin-top: rem(165);
         @include r(767) {
-            margin-top: rem(198);
+            margin-top: 0;
         }
     }
     &--no-header {

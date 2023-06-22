@@ -9,5 +9,6 @@
     font-family: $font-main;
     color: $darkGreen;
     justify-content: space-between;
+    align-items: stretch;
     @include r(1200) {}
 }

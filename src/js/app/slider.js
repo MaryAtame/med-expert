@@ -80,7 +80,7 @@ function createSlider(el) {
 
         320: {
           slidesPerView: slidesQuantityMob || 1,
-          spaceBetween: 20
+          spaceBetween: 15
         }
       }
     });

@@ -3,15 +3,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: rem(45);
     @include r(767) {
-      margin-bottom: rem(43);
       flex-direction: column;
       align-items: flex-start;
-    }
-
-    .title {
-      margin-bottom: 0;
     }
   }
   &__header--mob-row {

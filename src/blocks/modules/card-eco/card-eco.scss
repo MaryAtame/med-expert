@@ -26,7 +26,7 @@
       transform: scale(1.1);
     }
 
-    .card-eco__btn {
+    .card-eco__bottom-tooltip {
       opacity: 1;
     }
 
@@ -51,7 +51,7 @@
     transition: all .3s ease-in-out;
     @include r(767) {
       position: absolute;
-      bottom: rem(-20);
+      bottom: rem(-5);
       right: -63%;
     }
 
@@ -104,6 +104,7 @@
     margin-bottom: rem(25);
     @include r(767) {
       margin-bottom: rem(5);
+      font-size: rem(30);
     }
   }
 
@@ -141,7 +142,7 @@
   &__bottom {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    //justify-content: space-between;
     @include r(767) {
       flex-direction: column-reverse;
       align-items: flex-start;
@@ -149,10 +150,11 @@
     }
   }
 
-  &__btn {
+  &__bottom-tooltip {
     opacity: 0;
     pointer-events: none;
     position: absolute;
+    transition: opacity .3s ease-in-out;
     @include r(767) {
       opacity: 1;
       pointer-events: auto;
@@ -187,6 +189,7 @@
         top: 68%;
         left: rem(20);
       }
+
       svg {
         @include r(767) {
           transform: scale(0.5);

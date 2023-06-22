@@ -119,7 +119,10 @@
 }
 .slider__main--overflow {
   overflow: visible !important;
-  clip-path: inset(0 0 -100% 0);
+  clip-path: inset(-100% 0 -100% 0);
+  @include r(1200) {
+    clip-path: none;
+  }
 }
 .slider__main--overflow .slider__slide {
   opacity: 1;

@@ -3,9 +3,10 @@
   background-color: #F2F4F6;
   padding: rem(40);
   height: rem(240);
+  overflow: hidden;
   transition: all .3s ease-in-out;
   @include r(767) {
-    padding: rem(30);
+    padding: rem(30) rem(15);
     height: rem(215);
   }
 
@@ -20,6 +21,7 @@
     background: linear-gradient(161.62deg, rgba(255, 255, 255, 0) 12.47%, #D1E2F4 112.61%, #E0ECF9 112.61%);
     transition: all .3s ease-in-out;
   }
+
   &:after {
     content: '';
     position: absolute;
@@ -40,6 +42,11 @@
   &__content {
     position: relative;
     z-index: 10;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    text-overflow: ellipsis;
   }
 
   &__picture {

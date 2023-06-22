@@ -74,7 +74,8 @@
 
   &--big {
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    align-items: flex-start;
     padding: rem(30) rem(50) rem(30) rem(30);
     border: 1px solid #ECECEC;
     border-radius: 10px;
@@ -90,7 +91,6 @@
     }
 
     .link-row__text {
-      color: $green;
       font-size: rem(20);
       font-weight: 500;
     }

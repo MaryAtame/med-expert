@@ -60,13 +60,13 @@
     right: rem(-400);
     background-color: #FFFFFF;
     padding: rem(60) rem(20) rem(35);
-    border-radius: rem(10);
+    border-radius: 0 0 0 rem(10);
     -webkit-box-shadow: -4px 8px 11px -2px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: -4px 8px 11px -2px rgba(0, 0, 0, 0.2);
     box-shadow: -4px 8px 11px -2px rgba(0, 0, 0, 0.2);
     transition: right 1s ease-in-out;
     @include r(767) {
-      top: rem(72);
+      top: rem(83);
     }
   }
 

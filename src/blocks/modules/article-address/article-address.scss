@@ -4,23 +4,9 @@
   padding: rem(31) rem(36);
   border-radius: 10px;
   height: rem(185);
+
   @include r(767) {
     padding: rem(30);
-  }
-
-  &:hover > .article-address__popup {
-    display: block;
-    right: -50%;
-    border-radius: 0 rem(20) rem(20) rem(20);
-    @include r(767) {
-      right: 15%;
-      border-radius: rem(20) 0 rem(20) rem(20);
-    }
-  }
-
-  &:nth-child(2n):hover > .article-address__popup {
-    right: 15%;
-    border-radius: rem(20) 0 rem(20) rem(20);
   }
 
   &--wide {
@@ -42,14 +28,14 @@
         font-size: rem(16);
       }
     }
+  }
 
-    svg {
-      width: rem(24);
-      height: rem(24);
-      @include r(767) {
-        width: rem(18);
-        height: rem(18);
-      }
+  &__popup-trigger {
+    width: rem(24);
+    height: rem(24);
+    @include r(767) {
+      width: rem(18);
+      height: rem(18);
     }
   }
 
@@ -86,6 +72,16 @@
 
     &:last-child {
       margin-bottom: 0;
+    }
+  }
+
+
+  &__popup.active {
+    display: block;
+    right: 15%;
+    border-radius: rem(20) 0 rem(20) rem(20);
+    @include r(767) {
+      top: rem(50);
     }
   }
 

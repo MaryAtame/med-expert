@@ -1216,6 +1216,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _app_mob_menu__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_app_mob_menu__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var _app_tel_verification__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./app/tel-verification */ "./src/js/app/tel-verification.js");
 /* harmony import */ var _app_tel_verification__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_app_tel_verification__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _app_address_popup__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./app/address-popup */ "./src/js/app/address-popup.js");
+/* harmony import */ var _app_address_popup__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_app_address_popup__WEBPACK_IMPORTED_MODULE_9__);
 
 
 
@@ -1226,6 +1228,37 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
+/***/ }),
+
+/***/ "./src/js/app/address-popup.js":
+/*!*************************************!*\
+  !*** ./src/js/app/address-popup.js ***!
+  \*************************************/
+/***/ (function() {
+
+document.addEventListener("DOMContentLoaded", () => {
+  const articleTrigger = document.querySelectorAll(".article-address__popup-trigger");
+  const popups = document.querySelectorAll(".article-address__popup");
+  articleTrigger.forEach((trigger) => {
+    trigger.addEventListener("click", (e) => {
+      e.preventDefault();
+      const article = trigger.closest(".article-address");
+      const popup = article.querySelector(".article-address__popup");
+      if (popup.classList.contains("active")) {
+        popups.forEach((el) => {
+          el.classList.remove("active");
+        });
+      } else {
+        popups.forEach((el) => {
+          el.classList.remove("active");
+        });
+        popup.classList.add("active");
+      }
+    });
+  });
+});
 
 /***/ }),
 

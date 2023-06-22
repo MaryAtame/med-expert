@@ -50,7 +50,7 @@
 
   &__picture {
     height: rem(420);
-    overflow: hidden;
+    //overflow: hidden;
     z-index: 0;
     @include r(767) {
       position: absolute;
@@ -59,10 +59,11 @@
       height: 65%;
       left: 0;
       right: 0;
+      bottom: 0;
       &:after {
         content: '';
         position: absolute;
-        width: 100%;
+        width: 200%;
         height: 100%;
         top: 0;
         left: 0;
@@ -295,16 +296,21 @@
 
     &__picture {
       height: 100%;
-      max-height: rem(250);
       width: 100%;
+      max-width: rem(500);
+      margin-left: auto;
       @include r(767) {
-       width: auto;
+        margin-right: auto;
+        width: auto;
+        max-width: none;
         bottom: 0;
       }
+
       img {
         height: 100%;
         width: 100%;
         object-fit: contain;
+        object-position: 40% 50%;
         @include r(767) {
           width: auto;
         }

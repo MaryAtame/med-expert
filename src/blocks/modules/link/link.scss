@@ -36,6 +36,7 @@
   }
 
   &--underline {
+    word-wrap: break-word;
     text-decoration: underline;
     text-underline-offset: 3px;
   }
