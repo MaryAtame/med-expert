@@ -2064,14 +2064,6 @@ meter {
             box-shadow: none;
   }
 }
-.address__title {
-  margin-bottom: 2.5rem;
-}
-@media only screen and (max-width: 767px) {
-  .address__title {
-    margin-bottom: 1.25rem;
-  }
-}
 .address__list {
   height: 23.75rem;
   overflow-y: scroll;
@@ -2099,7 +2091,7 @@ meter {
   background: #F2F4F6;
 }
 .address__item {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5625rem;
 }
 .address__item:last-child {
   margin-bottom: 0;
@@ -2107,7 +2099,7 @@ meter {
 .address__item-title {
   font-size: 1.25rem;
   font-weight: 500;
-  margin-bottom: 1.125rem;
+  margin-bottom: 0.625rem;
 }
 @media only screen and (max-width: 767px) {
   .address__item-title {
@@ -2136,6 +2128,12 @@ meter {
   .address__map {
     margin-left: 0;
     height: 35.6875rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .address__map--min {
+    min-height: auto;
+    height: 21.5625rem;
   }
 }
 
@@ -2946,7 +2944,7 @@ meter {
 @media only screen and (max-width: 767px) {
   .card--bg {
     padding: 3.125rem 1.875rem;
-    height: 15.8125rem;
+    height: 15rem;
   }
 }
 .card--bg__content {
@@ -2960,6 +2958,7 @@ meter {
 }
 .card--bg__content-big {
   width: 70%;
+  z-index: 10;
 }
 @media only screen and (max-width: 767px) {
   .card--bg__content-big {
@@ -3192,6 +3191,11 @@ meter {
   border: none;
   padding: 2.5rem;
   background-color: #F2F4F6;
+}
+@media only screen and (max-width: 767px) {
+  .card--order {
+    padding: 1.875rem 2.5rem;
+  }
 }
 .card--order__content {
   display: -webkit-box;
@@ -4469,11 +4473,10 @@ meter {
 .collapse--simple__trigger p {
   font-size: 1.5rem;
   font-weight: 600;
-  margin-bottom: 0.625rem;
 }
 @media only screen and (max-width: 767px) {
   .collapse--simple__trigger p {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
 }
 .collapse--simple__trigger span {
@@ -4571,7 +4574,6 @@ meter {
 @media only screen and (max-width: 767px) {
   .color-block--pink {
     padding: 2.5rem 1.875rem;
-    height: 22.9375rem;
   }
 }
 .color-block--green {
@@ -5393,7 +5395,10 @@ meter {
   background-color: #F2F4F6;
   overflow: hidden;
   position: relative;
-  height: 26.25rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  min-height: 26.25rem;
 }
 @media only screen and (max-width: 1200px) {
   .page-intro {
@@ -5420,8 +5425,8 @@ meter {
       -ms-flex-pack: justify;
           justify-content: space-between;
   position: relative;
-  height: 26.25rem;
-  padding: 1.25rem 0 3.75rem;
+  min-height: 26.25rem;
+  padding: 1.25rem 0 2.5rem;
   z-index: 1;
 }
 @media only screen and (max-width: 767px) {
@@ -5736,6 +5741,7 @@ meter {
   height: 1rem;
 }
 .page-intro--min {
+  min-height: 100%;
   height: 15.625rem;
 }
 @media only screen and (max-width: 767px) {
@@ -5771,7 +5777,7 @@ meter {
   }
 }
 .page-intro--min .page-intro__content {
-  height: 15.625rem;
+  min-height: 15.625rem;
 }
 @media only screen and (max-width: 767px) {
   .page-intro--min .page-intro__content {
@@ -5868,7 +5874,7 @@ meter {
 }
 @media only screen and (max-width: 1200px) {
   .price-block__content--left {
-    margin-bottom: 1.875rem;
+    margin-bottom: 1.5625rem;
   }
 }
 .price-block__content--right {
@@ -5916,7 +5922,7 @@ meter {
       -ms-flex-align: center;
           align-items: center;
   row-gap: 0.9375rem;
-  margin-bottom: 1.4375rem;
+  margin-bottom: 1.875rem;
 }
 @media only screen and (max-width: 767px) {
   .rating {
@@ -6044,7 +6050,7 @@ meter {
 @media only screen and (max-width: 767px) {
   .review {
     max-height: none;
-    height: 28.375rem;
+    height: 32.75rem;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -6484,7 +6490,7 @@ meter {
 }
 @media only screen and (max-width: 767px) {
   .tabs__item--padding {
-    padding: 1.25rem 0 0;
+    padding: 2.1875rem 0 0;
   }
 }
 .tabs__text b {
@@ -6518,14 +6524,14 @@ meter {
 }
 @media only screen and (max-width: 767px) {
   .tabs__item-list {
-    margin-top: 1.6875rem;
+    margin-top: 2.5rem;
     -webkit-columns: 200px auto;
        -moz-columns: 200px auto;
             columns: 200px auto;
   }
 }
 .tabs__item-item {
-  margin-bottom: 0.625rem;
+  margin-bottom: 0.4375rem;
 }
 .tabs__item-item:last-child {
   margin-bottom: 0;
@@ -6760,8 +6766,8 @@ meter {
 }
 .intro-slider__content {
   position: absolute;
-  top: 3.75rem;
-  left: 4.5rem;
+  top: 3.9375rem;
+  left: 4.375rem;
 }
 @media only screen and (max-width: 767px) {
   .intro-slider__content {
@@ -6866,6 +6872,12 @@ meter {
   .slider__pagination {
     left: 1.5625rem;
     bottom: 3.4375rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .slider__pagination--card {
+    left: 1.5625rem;
+    bottom: 1.5625rem;
   }
 }
 .slider .bullet {
@@ -8019,6 +8031,11 @@ meter {
   font-size: 1.25rem;
   margin-bottom: 1.5625rem;
 }
+@media only screen and (max-width: 767px) {
+  .link--dot {
+    margin-bottom: 1.125rem;
+  }
+}
 .link--dot:before {
   content: "";
   display: inline-block;
@@ -8501,7 +8518,7 @@ meter {
           break-inside: avoid;
   font-size: 1.25rem;
   font-weight: 400;
-  margin-bottom: 3rem;
+  margin-bottom: 1.875rem;
 }
 @media only screen and (max-width: 767px) {
   .list--alph > li {
@@ -8890,10 +8907,12 @@ meter {
   min-height: 35.3125rem;
   margin: 0 auto;
   position: relative;
+  top: -1.5625rem;
   text-align: center;
 }
 @media only screen and (max-width: 767px) {
   .not-found {
+    top: 3.4375rem;
     min-height: auto;
   }
 }
@@ -8926,8 +8945,13 @@ meter {
 }
 .not-found__picture {
   width: 100%;
-  max-width: 52rem;
-  margin: 0 auto 1.25rem;
+  max-width: 56.25rem;
+  margin: 0 auto 2.5rem;
+}
+@media only screen and (max-width: 767px) {
+  .not-found__picture {
+    margin-bottom: 3.125rem;
+  }
 }
 @media only screen and (max-width: 767px) {
   .news-page__intro-picture {
@@ -9093,6 +9117,14 @@ button {
   }
 }
 
+@media only screen and (max-width: 767px) {
+  .order-m--1 {
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+        -ms-flex-order: -1;
+            order: -1;
+  }
+}
 @media only screen and (max-width: 767px) {
   .order-m-1 {
     -webkit-box-ordinal-group: 2;
@@ -9967,6 +9999,16 @@ button {
   }
 }
 @media only screen and (max-width: 767px) {
+  .mbm-115 {
+    margin-bottom: 7.1875rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .mbm-120 {
+    margin-bottom: 7.5rem;
+  }
+}
+@media only screen and (max-width: 767px) {
   .mbm-125 {
     margin-bottom: 7.8125rem;
   }
@@ -9974,6 +10016,11 @@ button {
 @media only screen and (max-width: 767px) {
   .mbm-175 {
     margin-bottom: 10.9375rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .mbm-185 {
+    margin-bottom: 11.5625rem;
   }
 }
 @media only screen and (max-width: 767px) {
